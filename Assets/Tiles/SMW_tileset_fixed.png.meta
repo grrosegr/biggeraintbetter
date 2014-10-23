@@ -1,0 +1,3496 @@
+fileFormatVersion: 2
+guid: 220e4b81f305047fab97ce2af3033cf9
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: SMW_tileset_fixed_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 322
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 322
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 322
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 322
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 322
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_5
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 322
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_6
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 322
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_7
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 322
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_8
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 322
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_9
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 322
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_10
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 322
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_11
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 322
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_12
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 322
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_13
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 322
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_14
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 322
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_15
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 322
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_16
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 322
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 305
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_18
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 305
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_19
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 305
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_20
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 305
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_21
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 305
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_22
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 305
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_23
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 305
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_24
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 305
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_25
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 305
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_26
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 305
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_27
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 305
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_28
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 305
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_29
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 305
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_30
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 305
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_31
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 305
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_32
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 305
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_33
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 305
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_35
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 288
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_36
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 288
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_37
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 288
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_38
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 288
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_39
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 288
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_40
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 288
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_41
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 288
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_42
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 288
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_43
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 288
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_44
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 288
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_45
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 288
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_46
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 288
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_47
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 288
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_48
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 288
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_49
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 288
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_50
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 288
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_51
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 288
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 271
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_53
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 271
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_54
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 271
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_55
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 271
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_56
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 271
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_57
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 271
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_58
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 271
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_59
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 271
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_60
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 271
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_61
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 271
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_62
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 271
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_63
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 271
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_64
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 271
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_65
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 271
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_66
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 271
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_67
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 271
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_68
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 271
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_69
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 271
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_70
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 271
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 254
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_72
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 254
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_73
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 254
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_74
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 254
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_75
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 254
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_76
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 254
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_77
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 254
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_78
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 254
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_79
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 254
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_80
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 254
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_81
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 254
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_82
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 254
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_83
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 254
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_84
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 254
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_85
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 254
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_86
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 254
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_87
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 254
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_88
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 254
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_89
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 254
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 237
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_91
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 237
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_92
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 237
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_93
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 237
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_94
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 237
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_95
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 237
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_96
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 237
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_97
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 237
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_98
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 237
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_99
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 237
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_100
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 237
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_101
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 237
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_102
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 237
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_103
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 237
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_104
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 237
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_105
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 237
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_106
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 237
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_107
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 237
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 220
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_109
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 220
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_110
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 220
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_111
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 220
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_112
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 220
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_113
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 220
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_114
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 220
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_115
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 220
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_116
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 220
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_117
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 220
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_118
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 220
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_119
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 220
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_120
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 220
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_121
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 220
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_122
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 220
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_123
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 220
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_124
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 220
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_125
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 220
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 203
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_127
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 203
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_128
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 203
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_129
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 203
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_130
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 203
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_131
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 203
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_132
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 203
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_133
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 203
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_134
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 203
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_135
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 203
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_136
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 203
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_137
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 203
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_138
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 203
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_139
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 203
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_140
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 203
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_141
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 203
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_142
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 203
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_143
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 203
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_144
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 203
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_145
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 186
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_146
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 186
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_147
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 186
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_148
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 186
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_149
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 186
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_150
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 186
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_151
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 186
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_152
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 186
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_153
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 186
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_154
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 186
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_155
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 186
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_156
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 186
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_157
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 186
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_158
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 186
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_159
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 186
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_160
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 186
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_161
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 186
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_162
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 186
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_163
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 186
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_164
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 169
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_165
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 169
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_166
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 169
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_167
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 169
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_168
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 169
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_169
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 169
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_170
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 169
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_171
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 169
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_172
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 169
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_173
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 169
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_174
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 169
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_175
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 169
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_176
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 169
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_177
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 169
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_178
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 169
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_179
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 169
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_180
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 169
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_181
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 169
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_182
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 169
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_183
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_184
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 152
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_185
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 152
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_186
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 152
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_187
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 152
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_188
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 152
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_189
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 152
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_190
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 152
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_191
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 152
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_192
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 152
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_193
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 152
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_194
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 152
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_195
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 152
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_196
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 152
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_197
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 152
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_198
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 152
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_199
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 152
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_200
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 152
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_201
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 152
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_202
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_203
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 135
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_204
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 135
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_205
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 135
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_206
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 135
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_207
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 135
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_208
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 135
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_209
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 135
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_210
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 135
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_211
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 135
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_212
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 135
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_213
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 135
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_214
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 135
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_215
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 135
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_216
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 135
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_217
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 135
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_218
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 135
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_219
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 135
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_220
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 135
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_221
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 118
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_222
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 118
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_223
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 118
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_224
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 118
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_225
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 118
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_226
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 118
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_227
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 118
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_228
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 118
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_229
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 118
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_230
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 118
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_231
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 118
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_232
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 118
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_233
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 118
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_234
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 118
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_235
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 118
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_236
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 118
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_237
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 118
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_238
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 118
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_239
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 118
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 101
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_241
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 101
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_242
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 101
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_243
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 101
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_244
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 101
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_245
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 101
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_246
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 101
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_247
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 101
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_248
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 101
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_249
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 101
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_250
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 101
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_251
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 101
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_252
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 101
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_253
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 101
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_254
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 101
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_255
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 101
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_256
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 101
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_257
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 101
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_258
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 101
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_259
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_260
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 84
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_261
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 84
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_262
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 84
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_263
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 84
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_264
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 84
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_265
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 84
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_266
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 84
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_267
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 84
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_268
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 84
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_269
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 84
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_270
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 84
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_271
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 84
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_272
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 84
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_273
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 84
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_274
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 84
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_275
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 84
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_276
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 84
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_277
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 67
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_278
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 67
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_279
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 67
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_280
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 67
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_281
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 67
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_282
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 67
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_283
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 67
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_284
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 67
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_285
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 67
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_286
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 67
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_287
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 67
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_288
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 67
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_289
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 67
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_290
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 67
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_291
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 67
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_292
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 67
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_293
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 67
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_294
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 67
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_295
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 67
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_296
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_297
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 50
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_298
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 50
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_299
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 50
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_300
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 50
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_301
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 50
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_302
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 50
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_303
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 50
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_304
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 50
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_305
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 50
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_306
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 50
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_307
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 50
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_308
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 50
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_309
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 50
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_310
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 50
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_311
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 50
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_312
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 50
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_313
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 50
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_314
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_315
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 33
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_316
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 33
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_317
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 33
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_318
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 33
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_319
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 33
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_320
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 33
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_321
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 33
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_322
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 33
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_323
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 33
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_324
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 33
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_325
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 33
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_326
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 33
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_327
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 33
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_328
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 33
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_329
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_330
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 16
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_331
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 16
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_332
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 16
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_333
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 16
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_334
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 16
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_335
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 16
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_336
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 16
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_337
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 16
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_338
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 16
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_339
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 16
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_340
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 16
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_341
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 16
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_342
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 16
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_343
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 16
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SMW_tileset_fixed_344
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 254
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
