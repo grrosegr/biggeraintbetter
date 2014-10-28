@@ -1,0 +1,4686 @@
+fileFormatVersion: 2
+guid: 6c09200a979a3449291347ff88eebc20
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Enemies_fixed_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 897
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 897
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 897
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_3
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 896
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_4
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 896
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_5
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 896
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_6
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 894
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_7
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 893
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_8
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 894
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_9
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 912
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_10
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 912
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_11
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 911
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_12
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 909
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_13
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 910
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_14
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 910
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_15
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 910
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_16
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 894
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_17
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 894
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_18
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 894
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_19
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 894
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_20
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 894
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_21
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 894
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_22
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 894
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_23
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 894
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_24
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 894
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_25
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 894
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_26
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 893
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_27
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 893
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_28
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 893
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_29
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 893
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_30
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 861
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_31
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 861
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_32
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 861
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_33
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 860
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_34
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 860
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_35
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 860
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_36
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 858
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_37
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 857
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_38
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 858
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_39
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 877
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_40
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 877
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_41
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 876
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_42
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 874
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_43
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 875
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_44
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 875
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_45
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 875
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_46
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 857
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_47
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 857
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_48
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 857
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_49
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 857
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_50
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 857
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_51
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 857
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_52
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 859
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_53
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 859
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_54
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 859
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_55
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 859
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_56
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 858
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_57
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 858
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_58
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 858
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_59
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 858
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_60
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 824
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_61
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 824
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_62
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 824
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_63
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 823
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_64
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 823
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_65
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 822
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_66
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 822
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_67
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 821
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_68
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 821
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_69
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 838
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_70
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 838
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_71
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 837
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_72
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 835
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_73
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 838
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_74
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 838
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_75
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 838
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_76
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 820
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_77
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 820
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_78
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 820
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_79
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 820
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_80
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 820
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_81
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 820
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_82
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 820
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_83
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 820
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_84
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 820
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_85
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 820
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_86
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 819
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_87
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 819
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_88
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 819
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_89
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 819
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_90
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 786
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_91
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 786
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_92
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 786
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_93
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 785
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_94
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 785
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_95
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 784
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_96
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 783
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_97
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 782
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_98
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 783
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_99
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 799
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_100
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 799
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_101
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 798
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_102
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 796
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_103
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 800
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_104
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 800
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_105
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 800
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_106
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 779
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_107
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 779
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_108
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 779
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_109
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 779
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_110
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 779
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_111
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 779
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_112
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 763
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_113
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 763
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_114
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 781
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_115
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 781
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_116
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 781
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_117
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 781
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_118
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 780
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_119
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 780
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_120
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 780
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_121
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 780
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_122
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 763
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_123
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 763
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_124
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 762
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_125
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 761
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_126
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 761
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_127
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 761
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_128
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 757
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_129
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 757
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_130
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 758
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_131
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 758
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_132
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 758
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_133
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 758
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_134
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 757
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_135
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 757
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_136
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 757
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_137
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 742
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_138
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 741
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_139
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 736
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_140
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 736
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_141
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 736
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_142
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 736
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_143
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 735
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_144
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 734
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_145
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 734
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_146
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 734
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_147
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 738
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_148
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 738
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_149
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 738
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_150
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 738
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_151
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 738
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_152
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 738
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_153
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 738
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_154
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 712
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_155
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 712
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_156
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 712
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_157
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 712
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_158
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 711
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_159
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 710
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_160
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 710
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_161
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 710
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_162
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 719
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_163
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 719
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_164
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 716
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_165
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 716
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_166
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 716
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_167
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 715
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_168
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 716
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_169
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 720
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_170
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 720
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_171
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 720
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_172
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 674
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_173
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 674
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_174
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 698
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_175
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 698
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_176
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 694
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_177
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 693
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_178
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 694
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_179
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 681
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_180
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 681
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_181
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 673
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_182
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 673
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_183
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 673
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_184
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 674
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_185
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 674
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_186
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 674
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_187
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 677
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_188
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 677
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_189
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 655
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_190
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 654
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_191
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 681
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_192
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 681
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_193
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 681
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_194
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 640
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_195
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 638
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_196
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 658
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_197
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 658
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_198
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 655
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_199
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 656
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_200
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 655
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_201
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 655
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_202
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 640
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_203
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 640
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_204
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 638
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_205
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 638
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_206
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 639
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_207
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 639
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_208
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 639
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_209
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 586
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_210
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 634
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_211
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 649
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_212
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 631
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_213
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 631
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_214
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 631
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_215
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 631
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_216
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 613
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_217
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 613
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_218
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 613
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_219
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 613
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_220
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 615
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_221
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 615
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_222
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 614
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_223
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 614
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_224
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 612
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_225
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 612
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_226
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 612
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_227
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 612
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_228
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 611
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_229
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 611
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_230
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 610
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_231
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 591
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_232
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 591
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_233
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 590
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_234
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 590
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_235
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 590
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_236
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 590
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_237
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 590
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_238
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 590
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_239
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 589
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_240
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 590
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_241
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 577
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_242
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 576
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_243
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 578
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_244
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 577
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_245
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 571
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_246
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 570
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_247
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 555
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_248
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 575
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_249
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 569
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_250
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 555
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_251
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 555
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_252
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 555
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_253
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 561
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_254
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 555
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_255
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 555
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_256
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 555
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_257
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 543
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_258
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 543
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_259
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 541
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_260
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 552
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_261
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 554
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_262
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 558
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_263
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 558
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_264
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 558
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_265
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 558
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_266
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 531
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_267
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 531
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_268
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 532
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_269
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 531
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_270
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 531
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_271
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 532
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_272
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 516
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_273
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 516
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_274
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 528
+        width: 44
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_275
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 538
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_276
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 538
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_277
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 538
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_278
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 538
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_279
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 510
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_280
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 509
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_281
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 510
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_282
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 509
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_283
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 512
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_284
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 512
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_285
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 512
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_286
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 512
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_287
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 504
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_288
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 511
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_289
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 506
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_290
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 498
+        width: 54
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_291
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 504
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_292
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 506
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_293
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 487
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_294
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 488
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_295
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 488
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_296
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 487
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_297
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 487
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_298
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 487
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_299
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 494
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_300
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 494
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_301
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 481
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_302
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 481
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_303
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 452
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_304
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 409
+        width: 18
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_305
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 409
+        width: 18
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_306
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 409
+        width: 18
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_307
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 409
+        width: 18
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_308
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 459
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_309
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 459
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_310
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 478
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_311
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 478
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_312
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 463
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_313
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 452
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_314
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 460
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_315
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 460
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_316
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 462
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_317
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 461
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_318
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 410
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_319
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 411
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_320
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 411
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_321
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_322
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 424
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_323
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 434
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_324
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 433
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_325
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 433
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_326
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 433
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_327
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 432
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_328
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 432
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_329
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_330
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 395
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_331
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 395
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_332
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 395
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_333
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 395
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_334
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 340
+        width: 72
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_335
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 340
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_336
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 340
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_337
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 339
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_338
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 375
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_339
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 366
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_340
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 367
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_341
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 370
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_342
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 341
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_343
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 341
+        width: 48
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_344
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 341
+        width: 48
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_345
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 356
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_346
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 341
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_347
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 277
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_348
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 276
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_349
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 313
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_350
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 313
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_351
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 282
+        width: 16
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_352
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 282
+        width: 16
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_353
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 282
+        width: 17
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_354
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 282
+        width: 17
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_355
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 313
+        width: 47
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_356
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 313
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_357
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 326
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_358
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 313
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_359
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 282
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_360
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 282
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_361
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 311
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_362
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 282
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_363
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 282
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_364
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 283
+        width: 47
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_365
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 283
+        width: 47
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_366
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 297
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_367
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 282
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_368
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 282
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_369
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 248
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_370
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 248
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_371
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 248
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_372
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 248
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_373
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 258
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_374
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 258
+        width: 36
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_375
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 257
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_376
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 257
+        width: 55
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_377
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 231
+        width: 16
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_378
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 231
+        width: 16
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_379
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 231
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_380
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 231
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_381
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 267
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_382
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 247
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_383
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 237
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_384
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 236
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_385
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 236
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_386
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 236
+        width: 55
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_387
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 231
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_388
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 231
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_389
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 246
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_390
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 226
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_391
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 226
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_392
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 226
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_393
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 146
+        width: 36
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_394
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 187
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_395
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 187
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_396
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 187
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_397
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 187
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_398
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 184
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_399
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 182
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_400
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 185
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_401
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 142
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_402
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 142
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_403
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 143
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_404
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 133
+        width: 15
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_405
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 133
+        width: 16
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_406
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 135
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_407
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 135
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_408
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_409
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 96
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_410
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 96
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_411
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 96
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_412
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 99
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_413
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 99
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_414
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 99
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_415
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 118
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_416
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 97
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_417
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 97
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_418
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 97
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_419
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 98
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_420
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 94
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_421
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 94
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_422
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 94
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_423
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 66
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_424
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 66
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_425
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 65
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_426
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 65
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_427
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 66
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_428
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 66
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_429
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 66
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_430
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 66
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_431
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 66
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_432
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 66
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_433
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 66
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_434
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 63
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_435
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 63
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_436
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 63
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_437
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 38
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_438
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 38
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_439
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 37
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_440
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 37
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_441
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 36
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_442
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 36
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_443
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 36
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_444
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 36
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_445
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 35
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_446
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 36
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_447
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 36
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_448
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 36
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_449
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 36
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_450
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 36
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_451
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 5
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_452
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 5
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_453
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 6
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_454
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 5
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_455
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 5
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_456
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 5
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_457
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 16
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_458
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 5
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_459
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 3
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_460
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 4
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_461
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 4
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_462
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 2
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Enemies_fixed_463
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 3
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

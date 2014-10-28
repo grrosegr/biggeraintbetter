@@ -4,6 +4,8 @@ using System.Collections;
 public class QuestionBox : MonoBehaviour {
 
 	private Animator anim;
+	public GameObject mushroom;
+	private bool active = true;
 
 	// Use this for initialization
 	void Start () {
@@ -16,8 +18,14 @@ public class QuestionBox : MonoBehaviour {
 	}
 	
 	void OnTriggerEnter2D(Collider2D coll) {
-		Debug.Log ("lulz");
-		anim.SetBool("Active", false);
+		if (!active)
+			return;
+		audio.Play();
+		active = false;
+		anim.SetBool("Active", active);
+		Vector3 pos = transform.position;
+		pos.y += 0.5f;
+		Instantiate(mushroom, pos, Quaternion.identity);
 	}
 	
 }

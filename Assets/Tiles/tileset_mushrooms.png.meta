@@ -1,0 +1,7306 @@
+fileFormatVersion: 2
+guid: ccdaef5226f494747ab376729f8f6153
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: tileset_mushrooms_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 572
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 572
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 556
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_4
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 556
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_5
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_6
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_7
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 570
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_8
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 570
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_9
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 570
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_10
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 559
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_11
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 560
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_12
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 560
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_13
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_14
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_15
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_16
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_17
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_18
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_19
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_20
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 572
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_21
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 547
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_22
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 539
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_23
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 547
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_24
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 555
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_25
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 555
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_26
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 562
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_27
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 562
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_28
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 562
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_29
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 553
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_30
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 553
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_31
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 555
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_32
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 555
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_33
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 555
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_34
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 555
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_35
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 555
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_36
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 555
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_37
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 555
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_38
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 555
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_39
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 539
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_40
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 539
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_41
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 538
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_42
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 538
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_43
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 546
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_44
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 546
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_45
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 545
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_46
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 545
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_47
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 545
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_48
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 545
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_49
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 542
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_50
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 543
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: red_mushroom
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 543
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_52
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 543
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_53
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 543
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_54
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 543
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_55
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 538
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_56
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 538
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_57
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 538
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_58
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 538
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_59
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 538
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_60
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 538
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_61
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 538
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_62
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 538
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_63
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 529
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_64
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 538
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_65
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 528
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_66
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 528
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_67
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 528
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_68
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 528
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_69
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 513
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_70
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 513
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_71
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 513
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_72
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 513
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_73
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 527
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_74
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 513
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_75
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 530
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_76
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 530
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_77
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 530
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_78
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 522
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_79
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 522
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_80
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 528
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_81
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 529
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_82
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 521
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_83
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 521
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_84
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 521
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_85
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 521
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_86
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 521
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_87
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 521
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_88
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 521
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_89
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 513
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_90
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 513
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_91
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 513
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_92
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 513
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_93
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 505
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_94
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 505
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_95
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 511
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_96
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 511
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_97
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 511
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_98
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 511
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_99
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 511
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_100
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 511
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_101
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 511
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_102
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 510
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_103
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 504
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_104
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 504
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_105
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 504
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_106
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 504
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_107
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 504
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_108
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 504
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_109
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 504
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_110
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 506
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_111
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 504
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_112
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_113
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_114
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_115
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_116
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_117
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_118
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 488
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_119
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 488
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_120
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 494
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_121
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 494
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_122
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 494
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_123
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 494
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_124
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 494
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_125
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 494
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_126
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 494
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_127
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 493
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_128
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 493
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_129
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 493
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_130
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 493
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_131
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 493
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_132
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 487
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_133
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 487
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_134
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 487
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_135
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 487
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_136
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 487
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_137
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 487
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_138
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 487
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_139
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 487
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_140
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 489
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_141
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 479
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_142
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 479
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_143
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 479
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_144
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 479
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_145
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 479
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_146
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 479
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_147
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 471
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_148
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 471
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_149
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_150
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_151
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_152
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_153
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_154
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_155
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 477
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_156
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 476
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_157
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 476
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_158
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 476
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_159
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 476
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_160
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 476
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_161
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 471
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_162
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 470
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_163
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 470
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_164
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 470
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_165
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 470
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_166
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 470
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_167
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 472
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_168
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 472
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_169
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 462
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_170
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_171
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_172
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_173
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_174
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_175
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 462
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_176
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 454
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_177
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 460
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_178
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 460
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_179
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 460
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_180
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 460
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_181
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 460
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_182
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 455
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_183
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 455
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_184
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 453
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_185
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 453
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_186
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 453
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_187
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 453
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_188
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 453
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_189
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_190
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_191
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_192
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_193
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_194
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 445
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_195
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 437
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_196
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 437
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_197
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 443
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_198
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 443
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_199
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 444
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_200
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 444
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_201
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 443
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_202
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 443
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_203
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 443
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_204
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 443
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_205
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 439
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_206
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 439
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_207
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 436
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_208
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 438
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_209
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 442
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_210
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 439
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_211
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 419
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_212
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 419
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_213
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 428
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_214
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 428
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_215
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 428
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_216
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 428
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_217
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 428
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_218
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 428
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_219
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 420
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_220
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 420
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_221
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 426
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_222
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 426
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_223
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 426
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_224
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 426
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_225
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 426
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_226
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 426
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_227
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 427
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_228
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 427
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_229
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 425
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_230
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 425
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_231
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 425
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_232
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 425
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_233
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 389
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_234
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 411
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_235
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 411
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_236
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 416
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_237
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 416
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_238
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 416
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_239
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 411
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_240
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 411
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_241
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 403
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_242
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 404
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_243
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 403
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_244
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 409
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_245
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 411
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_246
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 415
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_247
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 412
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_248
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 410
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_249
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 410
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_250
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 409
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_251
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 409
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_252
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 408
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_253
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 408
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_254
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 389
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_255
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 389
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_256
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 395
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_257
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 395
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_258
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 407
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_259
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 399
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_260
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 385
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_261
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 392
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_262
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 392
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_263
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 392
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_264
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 392
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_265
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 393
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_266
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 393
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_267
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 392
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_268
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 392
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_269
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 378
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_270
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 378
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_271
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 390
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_272
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 382
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_273
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 385
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_274
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 385
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_275
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 385
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_276
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 385
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_277
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 385
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_278
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 393
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_279
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 393
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_280
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 373
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_281
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 365
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_282
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_283
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_284
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_285
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 368
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_286
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 368
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_287
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 368
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_288
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 368
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_289
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 368
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_290
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 368
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_291
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 376
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_292
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 376
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_293
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 375
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_294
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 375
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_295
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 377
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_296
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 376
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_297
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 338
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_298
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 371
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_299
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 371
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_300
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 371
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_301
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 361
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_302
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 361
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_303
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 356
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_304
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 351
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_305
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 351
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_306
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 351
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_307
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 351
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_308
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 352
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_309
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 352
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_310
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 352
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_311
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 352
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_312
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 351
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_313
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 359
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_314
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 359
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_315
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 358
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_316
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 358
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_317
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 360
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_318
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 362
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_319
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 366
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_320
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 363
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_321
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 354
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_322
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 354
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_323
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 354
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_324
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 344
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_325
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 344
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_326
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 334
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_327
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 334
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_328
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 334
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_329
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 334
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_330
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 334
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_331
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 334
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_332
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 334
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_333
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 334
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_334
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 334
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_335
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 343
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_336
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 343
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_337
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 341
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_338
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 341
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_339
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 323
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_340
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 323
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_341
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 337
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_342
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 337
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_343
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 337
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_344
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 327
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_345
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 327
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_346
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 317
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_347
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 317
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_348
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 317
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_349
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 317
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_350
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 318
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_351
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 318
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_352
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 318
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_353
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 318
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_354
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 317
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_355
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 326
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_356
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 325
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_357
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 325
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_358
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 289
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_359
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_360
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_361
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_362
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 311
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_363
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 311
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_364
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 300
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_365
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 300
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_366
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 300
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_367
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 303
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_368
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 303
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_369
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_370
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 302
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_371
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 301
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_372
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 308
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_373
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 310
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_374
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 306
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_375
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 306
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_376
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 306
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_377
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 306
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_378
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 303
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_379
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 303
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_380
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 303
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_381
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 294
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_382
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 283
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_383
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 283
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_384
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 283
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_385
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 284
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_386
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 284
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_387
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 284
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_388
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 284
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_389
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 284
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_390
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 284
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_391
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 284
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_392
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 284
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_393
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 293
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_394
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 293
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_395
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 293
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_396
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 293
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_397
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 286
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_398
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 286
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_399
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 286
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_400
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 265
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_401
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 265
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_402
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_403
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_404
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_405
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_406
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_407
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 267
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_408
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 281
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_409
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 281
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_410
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 281
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_411
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 276
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_412
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 276
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_413
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 268
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_414
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 268
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_415
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 268
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_416
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 265
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_417
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 265
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_418
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 265
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_419
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 252
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_420
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 250
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_421
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 259
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_422
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 259
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_423
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 259
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_424
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 259
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_425
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 259
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_426
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 259
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_427
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_428
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_429
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_430
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 248
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_431
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 248
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_432
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 248
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_433
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 250
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_434
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 250
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_435
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 251
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_436
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 251
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_437
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 251
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_438
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 251
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_439
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 251
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_440
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 242
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_441
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 242
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_442
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 242
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_443
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 242
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_444
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 231
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_445
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 231
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_446
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 231
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_447
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_448
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 236
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_449
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 235
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_450
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 233
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_451
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 233
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_452
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 233
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_453
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 233
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_454
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 235
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_455
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 235
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_456
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 235
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_457
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 235
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_458
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 234
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_459
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 233
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_460
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 225
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_461
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 225
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_462
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 225
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_463
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 225
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_464
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 233
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_465
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 233
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_466
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 234
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_467
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 234
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_468
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 234
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_469
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 214
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_470
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 214
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_471
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 214
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_472
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 218
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_473
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 219
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_474
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 218
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_475
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 216
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_476
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 216
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_477
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 216
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_478
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 216
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_479
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 218
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_480
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 218
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_481
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 218
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_482
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 218
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_483
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 216
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_484
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_485
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_486
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 209
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_487
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_488
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_489
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_490
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 216
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_491
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 216
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_492
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 216
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_493
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 216
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_494
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 216
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_495
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 197
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_496
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 196
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_497
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 197
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_498
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 201
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_499
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 202
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_500
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 201
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_501
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_502
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_503
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_504
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_505
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 202
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_506
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 202
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_507
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_508
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_509
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 200
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_510
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_511
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 191
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_512
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 172
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_513
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_514
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_515
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 202
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_516
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_517
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_518
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 167
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_519
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 180
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_520
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_521
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 185
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_522
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_523
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_524
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_525
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 181
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_526
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 182
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_527
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 182
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_528
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 182
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_529
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 183
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_530
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 183
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_531
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 183
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_532
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 182
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_533
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 174
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_534
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 174
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_535
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 174
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_536
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 174
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_537
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 185
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_538
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 182
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_539
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 182
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_540
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 182
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_541
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_542
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_543
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_544
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_545
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_546
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 164
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_547
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 165
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_548
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 165
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_549
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 165
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_550
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 166
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_551
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 166
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_552
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 166
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_553
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 165
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_554
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 156
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_555
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 156
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_556
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 156
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_557
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 156
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_558
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 157
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_559
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 157
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_560
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 157
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_561
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 165
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_562
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 165
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_563
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 165
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_564
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 165
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_565
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 165
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_566
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 165
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_567
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 165
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_568
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_569
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_570
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_571
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_572
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_573
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_574
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 147
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_575
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 147
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_576
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 147
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_577
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_578
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_579
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_580
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 138
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_581
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 138
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_582
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 138
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_583
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 138
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_584
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 138
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_585
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 138
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_586
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_587
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_588
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_589
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_590
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_591
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_592
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 148
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_593
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 133
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_594
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 133
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_595
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 133
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_596
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 133
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_597
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 133
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_598
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 133
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_599
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_600
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 131
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_601
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_602
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_603
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 131
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_604
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 130
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_605
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 121
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_606
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 121
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_607
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 121
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_608
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 121
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_609
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 121
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_610
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 104
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_611
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 131
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_612
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_613
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_614
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_615
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_616
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_617
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_618
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_619
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_620
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_621
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_622
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_623
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 107
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_624
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 109
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_625
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_626
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_627
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_628
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_629
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_630
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_631
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_632
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_633
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_634
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_635
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 104
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_636
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_637
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_638
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_639
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_640
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_641
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 114
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_642
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 89
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_643
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 92
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_644
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_645
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 92
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_646
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 92
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_647
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 92
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_648
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 92
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_649
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 92
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_650
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 84
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_651
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_652
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_653
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_654
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_655
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_656
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 97
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_657
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 74
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_658
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 74
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_659
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_660
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_661
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_662
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_663
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_664
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 67
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_665
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_666
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_667
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_668
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_669
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_670
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_671
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 57
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_672
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 57
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_673
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 57
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_674
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 57
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_675
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 57
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_676
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 57
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_677
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 57
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_678
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 57
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_679
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 47
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_680
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_681
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_682
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_683
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 63
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_684
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_685
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_686
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_687
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_688
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_689
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 40
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_690
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_691
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_692
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_693
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_694
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_695
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_696
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_697
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 37
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_698
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_699
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_700
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_701
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_702
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 46
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_703
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 23
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_704
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 23
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_705
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 23
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_706
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 23
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_707
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 23
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_708
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 23
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_709
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 23
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_710
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 23
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_711
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_712
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_713
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_714
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 19
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_715
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 19
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_716
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 0
+        width: 131
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_717
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 6
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_718
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 6
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_719
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 6
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_720
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 6
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_721
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 6
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_722
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 6
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_723
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_724
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tileset_mushrooms_725
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 2
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

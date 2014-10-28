@@ -3,6 +3,8 @@
 --- !u!78 &1
 TagManager:
   tags:
+  - RedMushroom
+  - Enemy
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
@@ -44,4 +46,8 @@ TagManager:
   - name: Background
     userID: 1
     uniqueID: 1305795623
+    locked: 0
+  - name: Player
+    userID: 2
+    uniqueID: 1884284619
     locked: 0
