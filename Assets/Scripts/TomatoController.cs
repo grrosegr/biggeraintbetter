@@ -36,4 +36,23 @@ public class TomatoController : MonoBehaviour {
 		velocity.x = -transform.localScale.x * Speed;
 		rigidbody2D.velocity = velocity;
 	}
+	
+	private bool Alive = true;
+	private void Die() {
+		if (!Alive)
+			return;
+		Alive = false;
+		rigidbody2D.velocity = new Vector2(0, -1);
+		collider2D.enabled = false;
+	}
+	
+	
+	
+	void OnCollisionEnter2D(Collision2D coll) {
+		if (coll.gameObject.tag == "Player") {
+			// TODO: fix this
+			if (coll.transform.position.y > transform.position.y)
+				Die();
+		} 
+	}
 }

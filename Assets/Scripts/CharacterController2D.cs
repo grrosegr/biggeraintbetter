@@ -138,7 +138,8 @@ public class CharacterController2D : MonoBehaviour {
 		} else if (coll.gameObject.name == "KillBox") {
 			Die ();
 		} else if (coll.gameObject.tag == "Enemy") {
-			Die ();
+			if (coll.transform.position.y > transform.position.y)
+				Die();
 		}
 	}
 }
