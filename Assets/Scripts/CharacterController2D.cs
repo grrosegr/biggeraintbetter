@@ -46,14 +46,24 @@ public class CharacterController2D : MonoBehaviour {
 			if (value == _scale) return;
 			transform.localScale = Vector3.one * value;
 			_scale = value;
+			UpdateLocalScale();
 		}
 		
 		get {
 			return _scale;
 		}
 	}
+	
+	private static CharacterController2D instance;
+	
+	public static int StaticScale {
+		get {
+			return instance.Scale;
+		}
+	}
 
 	void Start () {
+		instance = this;
 		anim = GetComponent<Animator>();
 		Alive = true;
 	}
@@ -75,6 +85,7 @@ public class CharacterController2D : MonoBehaviour {
 		Bounds bounds = collider2D.bounds;
 		Vector2 topLeft = new Vector2(bounds.min.x, bounds.min.y);
 		Vector2 bottomRight = new Vector2(bounds.max.x, bounds.max.y);
+		// TODO: don't use area
 		bool grounded = (bool)Physics2D.OverlapArea(topLeft, bottomRight, LayerMask.GetMask("Terrain"));
 		if (grounded && Input.GetAxisRaw("Vertical") > 0 && (Time.time - lastJump > 0.2)) {
 			lastJump = Time.time;
@@ -126,7 +137,7 @@ public class CharacterController2D : MonoBehaviour {
 		collider2D.enabled = false;
 		audio.PlayOneShot(DieSound);
 		anim.SetBool("Alive", false);
-		StartCoroutine(ResetLevelAfter(DieSound.length + 0.5f));
+		StartCoroutine(ResetLevelAfter(DieSound.length + 0.0f));
 	}
 	
 	void OnCollisionEnter2D(Collision2D coll) {

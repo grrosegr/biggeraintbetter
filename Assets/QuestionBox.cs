@@ -24,8 +24,9 @@ public class QuestionBox : MonoBehaviour {
 		active = false;
 		anim.SetBool("Active", active);
 		Vector3 pos = transform.position;
-		pos.y += 0.5f;
-		Instantiate(mushroom, pos, Quaternion.identity);
+		pos.y += 0.5f * transform.parent.localScale.y;
+		GameObject mushroom_object = (GameObject)Instantiate(mushroom, pos, Quaternion.identity);
+		mushroom_object.transform.localScale = transform.parent.localScale;
 	}
 	
 }

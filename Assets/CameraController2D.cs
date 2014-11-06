@@ -21,8 +21,9 @@ public class CameraController2D : MonoBehaviour {
 		
 		Transform target = targetObject.transform;
 		camera.orthographicSize = targetController.Scale; //Mathf.Pow(1.5f, Mathf.Log (targetController.Scale, 2.0f));
+		transform.localScale = Vector3.one * targetController.Scale;
 		Vector3 t_pos = target.position;
-		t_pos.y += 0.5f;
+		t_pos.y += 0.5f * targetController.Scale;
 		Vector3 point = camera.WorldToViewportPoint(t_pos);
 		Vector3 delta = t_pos - camera.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, point.z)); //(new Vector3(0.5, 0.5, point.z));
 		Vector3 destination = transform.position + delta;
