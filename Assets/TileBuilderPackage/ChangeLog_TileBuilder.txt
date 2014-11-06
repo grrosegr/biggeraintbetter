@@ -1,0 +1,64 @@
+Changelog;
+
+7-2-2014
+========
+- Replaced backslashes to slashes for Mac users in filepaths. (Filepath would otherwise return errors).
+- The Tile Builder now works from inside the TileBuilderPackage folder, instead of dragging everything to your root.
+- Fixed an issue where on Mac systems, the tiles were being placed with an offset from the mouse position. (Thanks Zbyszek!)
+- Included credits to Kenney Vleugels for his awesome sprites.
+========
+
+6-3-2014
+========
+- The EditorWindow is now opened via the Menu bar instead of the Grid class.
+- You no longer need a seperate GameObject with the ImageLibrary component attached to it.
+- You no longer need a seperate GameObject with the Grid component attached to it.
+- Entirely removed the Grid class.
+- Made the editor usuable from just one class.
+- Removed the use of the Lock icon (top right inspector corner) for the editor to work properly.
+- Thoroughly Cleaned the editor class. (Efficiency and readability).
+- Removed Editor On/Off button. You now have to close / open the editor window to stop using it.
+- Removed the 0/null texture file, not needed anymore.
+- Created a fixed size for the editor buttons. Default are 70 x 70.
+- Rework the entire EditorWindow programmatically. Less dependancies and easier usability.
+- Created a seperate object that holds every TileBuilder object. This object is automatically instantiated the first time you open the Tile Builder.
+- Removed a bug where you had to switch between Unity Layouts for the Tile Editor to act normally again.
+- Removed a bug where CTRL-Z didnt work as intended. (Delegates were stacked upon eachother that caused multiple CTRL-Z inputs to be recognized after only pressing the key once).
+- Reworked the way the Tile Aligner components are added to selected GameObjects. (This class allows you to move the tiles while snapping to the grid).
+- Removed a bug where other objects besides the Tile Builder objects would change to a different name, i.e: "[Tile] [houseDarkAlt2] [18.5X] [0.5Y] [0L]".
+- Created a hotkey ("R") to put a tile back to its original default size. LocalScale = (grid.Width, grid.Height);
+- Removed the double list paradox for storing Rows and Tags. Create two seperate classes for a more Object Oriented approach.
+- Removed the grid drawn by gizmos.
+- Created a simple brush pallette. Click on the buttons, or the default hotkey to activate a brush. Right click to execute its functionallity. While creating tiles, you can either click or hold the space bar to create more tiles at once.
+- Created a grid that is being drawn by handles via the EditorWindow. 
+- The grid color and size can now be set via the EditorWindow.
+- Created a small gizmo to represent the mouse position inside the grid.
+- You can now only spawn tiles inside the Grid.
+- You can now edit the tile width and heigth from the inspector. Minimum is 1.
+- Each spawned tile will now be as big as the tile size width and heigth setting from the EditorWindow.
+- Saved the EditorWindow settings into a seperate save file.
+- Reworked the Tile Builder Package Guide.
+- Created a new YouTube tutorial video: 
+- Created a new little test level.
+- Jumping with the player character can now be done with the Space bar and Mouse1 instead of just Mouse 1.
+========
+
+6-4-2014
+========
+- Removed warnings given from the RowData and TagData class.
+- You can now place tiles outside of the grid area. The grid area acts solely as a indicator and visual.
+- You no longer need the separated PNG textures as a reference for each sprite. This process is now automated. (Thanks Dmitry!)
+- Created a basic folder where to put your tile sheets in. It will find every sprite inside of it to display in the EditorWindow.
+- Updated the Tile Builder Package Guide to Version 3.
+- Changed the layout of the script. Reduced the amount of tabs.
+========
+
+12-7-2014
+========
+- Removed the _LevelParent prefab, it is now a default GameObject.
+- Cleaned code flow.
+- Fixed bug where tile preview did not show the correct measurements and position when using uneven numbers.
+- Added a little streamline / polish to the editor interface.
+- Changed the way the Row and Tag data are being saved into the saved textfile. Optimized code flow, and you can now use numbers for Tags and Rows.
+- Update the Tile Builder package guide to V4. (With the new Read/Write enabled for textures).
+========

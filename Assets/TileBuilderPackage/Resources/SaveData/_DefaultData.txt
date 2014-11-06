@@ -1,0 +1,8 @@
+Tiles|Cake,Castle,Choco,Dirt,Grass,Ice,Lava,Sand,Snow,Stone,Tundra,Water
+Shrooms|ShroomTan,ShroomRed,ShroomBrown,Stem,Tall,Tiny
+Town|Door,Window,Fence,Chimney,Awning,HouseBeige,HouseDark,HouseGray,Roof,Sign
+Candy|Candy,Cane,Cookie,Cream,Cup,Gummy,Lollipop,Waffle
+Other|Bridge,Box,Bomb,Flag,Button,Coin,Plant,Switch,Rock,Lock,Torch
+Christmas|Tree,Iglo,SnowBall,Spike
+
+//Note: If you want to return to the default editor values, just copy the line above into the "TagData.txt" file.
