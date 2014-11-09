@@ -14,7 +14,6 @@ public class CharacterController2D : MonoBehaviour {
 	private float lastJump;
 	
 	public bool randomize = false;
-	public bool scaling = false;
 	private float nextChange;
 	private int randMult = 1;
 	
@@ -44,7 +43,6 @@ public class CharacterController2D : MonoBehaviour {
 	public int Scale {
 		set {
 			if (value == _scale) return;
-			transform.localScale = Vector3.one * value;
 			_scale = value;
 			UpdateLocalScale();
 		}
@@ -61,9 +59,12 @@ public class CharacterController2D : MonoBehaviour {
 			return instance.Scale;
 		}
 	}
+	
+	private int initialScale;
 
 	void Start () {
-		Scale = Mathf.Max(0,(int)transform.localScale.x); // copy over starting scale
+		initialScale = (int)transform.localScale.x;
+		Scale = initialScale;
 		instance = this;
 		anim = GetComponent<Animator>();
 		Alive = true;
@@ -77,18 +78,28 @@ public class CharacterController2D : MonoBehaviour {
 		FacingRight = true;
 	}
 	
+	private bool IsGrounded() {
+		Bounds bounds = collider2D.bounds;
+		float epsilon = 0.1f;
+		float epsilon_x = bounds.size.x * epsilon;
+		float epsilon_y = bounds.size.y * epsilon;
+		Vector2 bottomLeft = new Vector2(bounds.min.x + epsilon_x, bounds.min.y);
+		Vector2 bottomRightPadded = new Vector2(bounds.max.x - epsilon_x, bounds.min.y - epsilon_y);
+		
+		//bool grounded = (bool)Physics2D.Linecast(new Vector2(bounds.center.x, bounds.center.y), new Vector2(bounds.center.x, bounds.min.y - 0.2f), LayerMask.GetMask("Terrain"));
+		
+		return (bool)Physics2D.OverlapArea(bottomLeft, bottomRightPadded, LayerMask.GetMask("Terrain"));
+	}
+	
 	void FixedUpdate () {
 		if (!Alive)
 			return;
+		if (AlternatingScale)
+			return;
 			
 		Vector2 velocity = rigidbody2D.velocity;
-
-		Bounds bounds = collider2D.bounds;
-		Vector2 topLeft = new Vector2(bounds.min.x, bounds.min.y);
-		Vector2 bottomRight = new Vector2(bounds.max.x, bounds.max.y);
-		bool grounded = (bool)Physics2D.Linecast(new Vector2(bounds.center.x, bounds.center.y), new Vector2(bounds.center.x, bounds.min.y - 0.2f), LayerMask.GetMask("Terrain"));
-		// TODO: don't use area
-//		bool grounded = (bool)Physics2D.OverlapArea(topLeft, bottomRight, LayerMask.GetMask("Terrain"));
+	
+		bool grounded = IsGrounded();
 		if (grounded && Input.GetAxisRaw("Vertical") > 0 && (Time.time - lastJump > 0.2)) {
 			lastJump = Time.time;
 			if (Scale == 1)
@@ -142,12 +153,45 @@ public class CharacterController2D : MonoBehaviour {
 		StartCoroutine(ResetLevelAfter(DieSound.length + 0.0f));
 	}
 	
+	public bool AlternatingScale {get; private set;}
+	
+	IEnumerator AlternateScale(int oldScale, int newScale) {
+		float floorY = collider2D.bounds.min.y;
+		float extentY = transform.position.y - floorY;
+		
+		AlternatingScale = true;
+		collider2D.enabled = false;
+		rigidbody2D.isKinematic = true;
+		
+		for (int i = 0; i <= 2; i += 1) {
+			Vector2 correctedPos = transform.position;
+		
+			if (i % 2 == 0) {
+				Scale = newScale;
+				correctedPos.y = floorY + extentY * (float)newScale / (float)oldScale;
+			} else {
+				Scale = oldScale;
+				correctedPos.y = floorY + extentY;
+			}
+			transform.position  = correctedPos;
+			
+			yield return new WaitForSeconds(0.075f);
+		}
+		
+		collider2D.enabled = true;
+		rigidbody2D.isKinematic = false;
+		AlternatingScale = false;
+	}
+	
 	void OnCollisionEnter2D(Collision2D coll) {
+		if (AlternatingScale)
+			return;
+			
 		if (coll.gameObject.tag == "RedMushroom") {
 			audio.PlayOneShot(Powerup);
 			Destroy(coll.gameObject);
-			if (scaling)
-				Scale *= 2;
+
+			StartCoroutine(AlternateScale(Scale, Scale + initialScale));
 		} else if (coll.gameObject.name == "KillBox") {
 			Die ();
 		} else if (coll.gameObject.tag == "Enemy") {

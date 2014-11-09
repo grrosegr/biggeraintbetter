@@ -5,7 +5,7 @@ public class QuestionBox : MonoBehaviour {
 
 	private Animator anim;
 	public GameObject mushroom;
-	private bool active = true;
+	private bool hasMushroom = true;
 
 	// Use this for initialization
 	void Start () {
@@ -18,14 +18,14 @@ public class QuestionBox : MonoBehaviour {
 	}
 	
 	void OnTriggerEnter2D(Collider2D coll) {
-		if (!active)
+		if (!hasMushroom)
 			return;
 		if (!(coll.bounds.max.y < collider2D.bounds.min.y + 0.2))
 			return;
 			
 		audio.Play();
-		active = false;
-		anim.SetBool("Active", active);
+		hasMushroom = false;
+		anim.SetBool("Active", hasMushroom);
 		Vector3 pos = transform.position;
 		pos.y += 0.5f * transform.parent.localScale.y;
 		GameObject mushroom_object = (GameObject)Instantiate(mushroom, pos, Quaternion.identity);
