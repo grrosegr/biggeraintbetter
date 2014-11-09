@@ -63,6 +63,7 @@ public class CharacterController2D : MonoBehaviour {
 	}
 
 	void Start () {
+		Scale = Mathf.Max(0,(int)transform.localScale.x); // copy over starting scale
 		instance = this;
 		anim = GetComponent<Animator>();
 		Alive = true;
@@ -85,8 +86,9 @@ public class CharacterController2D : MonoBehaviour {
 		Bounds bounds = collider2D.bounds;
 		Vector2 topLeft = new Vector2(bounds.min.x, bounds.min.y);
 		Vector2 bottomRight = new Vector2(bounds.max.x, bounds.max.y);
+		bool grounded = (bool)Physics2D.Linecast(new Vector2(bounds.center.x, bounds.center.y), new Vector2(bounds.center.x, bounds.min.y - 0.2f), LayerMask.GetMask("Terrain"));
 		// TODO: don't use area
-		bool grounded = (bool)Physics2D.OverlapArea(topLeft, bottomRight, LayerMask.GetMask("Terrain"));
+//		bool grounded = (bool)Physics2D.OverlapArea(topLeft, bottomRight, LayerMask.GetMask("Terrain"));
 		if (grounded && Input.GetAxisRaw("Vertical") > 0 && (Time.time - lastJump > 0.2)) {
 			lastJump = Time.time;
 			if (Scale == 1)

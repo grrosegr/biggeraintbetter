@@ -1,4 +1,4 @@
-Tiles|Cake,Castle,Choco,Dirt,Grass,Ice,Lava,Sand,Snow,Stone,Tundra,Water
+Tiles|Cake,Castle,Choco,Dirt,Grass,Ice,Lava,Sand,Snow,Stone,Tundra,Water,CustomTiles
 Shrooms|ShroomTan,ShroomRed,ShroomBrown,Stem,Tall,Tiny
 Town|Door,Window,Fence,Chimney,Awning,HouseBeige,HouseDark,HouseGray,Roof,Sign
 Candy|Candy,Cane,Cookie,Cream,Cup,Gummy,Lollipop,Waffle

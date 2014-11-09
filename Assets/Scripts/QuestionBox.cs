@@ -20,6 +20,9 @@ public class QuestionBox : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D coll) {
 		if (!active)
 			return;
+		if (!(coll.bounds.max.y < collider2D.bounds.min.y + 0.2))
+			return;
+			
 		audio.Play();
 		active = false;
 		anim.SetBool("Active", active);

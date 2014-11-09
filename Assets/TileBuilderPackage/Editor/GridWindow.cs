@@ -679,7 +679,7 @@ public class GridWindow : EditorWindow {
             //------------------------------------------------------- END -------------------------------------------------------//
 
         } else if (DeleteTileBrushActive && _event.type == EventType.mouseDown && _event.button == 1) { //(e.isKey && e.keyCode == deletingKey)
-            foreach (GameObject obj in Selection.gameObjects) {
+             foreach (GameObject obj in Selection.gameObjects) {
                 if (obj.GetComponent<TileObjectRawData>() != null) {
                     Undo.DestroyObjectImmediate(obj);
                     DestroyImmediate(obj);
