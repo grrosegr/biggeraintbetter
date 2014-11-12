@@ -14,6 +14,7 @@ GameObject:
   - 61: {fileID: 6100000}
   - 82: {fileID: 8200000}
   - 95: {fileID: 9500000}
+  - 114: {fileID: 11400002}
   m_Layer: 2
   m_Name: Mario v2
   m_TagString: Player
@@ -28,8 +29,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.51950455, y: 3.59532905, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalPosition: {x: 5.84642124, y: 12.6142273, z: 0}
+  m_LocalScale: {x: 4, y: 4, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -39,7 +40,7 @@ Rigidbody2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_Mass: 1
+  m_Mass: 2
   m_LinearDrag: 0
   m_AngularDrag: .0500000007
   m_GravityScale: 1
@@ -55,9 +56,9 @@ BoxCollider2D:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
-  m_Material: {fileID: 6200000, guid: c724c230204ce40fda298c7f74f2053a, type: 2}
+  m_Material: {fileID: 6200000, guid: 593593f3550ab4635a153abe942d4ebe, type: 2}
   m_IsTrigger: 0
-  m_Size: {x: .140000001, y: .150000006}
+  m_Size: {x: .140000001, y: .159999996}
   m_Center: {x: 0, y: 0}
 --- !u!82 &8200000
 AudioSource:
@@ -131,6 +132,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -147,9 +149,19 @@ MonoBehaviour:
   Powerup: {fileID: 8300000, guid: 0e02e33c161c64b8e8327597095ac1c9, type: 3}
   DieSound: {fileID: 8300000, guid: a8111d85f22e64902958b9b1622ab3a0, type: 3}
   JumpSpeed: 3.5
-  HorizontalSpeed: 2
+  HorizontalSpeed: 1
   randomize: 0
-  scaling: 1
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d86e4cf3857f4b4e914c66541321387, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

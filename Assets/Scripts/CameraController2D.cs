@@ -14,6 +14,10 @@ public class CameraController2D : MonoBehaviour {
 		targetController = FindObjectOfType<CharacterController2D>();
 	}
 	
+	float AlmostAsBig(float x) {
+		return Mathf.Pow(1.65f, Mathf.Log (targetController.Scale, 2.0f));
+	}
+	
 	// Update is called once per frame
 	void Update () {
 		if (!targetController || !targetController.Alive)
@@ -25,10 +29,12 @@ public class CameraController2D : MonoBehaviour {
 		GameObject targetObject = targetController.gameObject;
 		
 		Transform target = targetObject.transform;
-		float scale = Mathf.Lerp(oldScale, targetController.Scale, 0.2f);
-		
+		float newScale = targetController.Scale;
+		//if (targetController.ScalingToNextLevel)
+			newScale = AlmostAsBig(newScale);
+		float scale = Mathf.Lerp(oldScale, newScale, 0.2f);
 		oldScale = scale;
-		camera.orthographicSize = scale; //Mathf.Pow(1.5f, Mathf.Log (targetController.Scale, 2.0f));
+		camera.orthographicSize = scale;
 		transform.localScale = Vector3.one * scale;
 		Vector3 t_pos = target.position;
 		t_pos.y += 0.5f * scale;
