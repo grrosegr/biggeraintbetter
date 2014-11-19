@@ -1,6 +1,55 @@
 fileFormatVersion: 2
 guid: a417d4fe8ddd5454e976a69c3a03031a
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: Characters_72x97_512_0
+    21300002: Characters_72x97_512_1
+    21300004: Characters_72x97_512_2
+    21300006: Characters_72x97_512_3
+    21300008: Characters_72x97_512_4
+    21300010: Characters_72x97_512_5
+    21300012: Characters_72x97_512_6
+    21300014: Characters_72x97_512_7
+    21300016: Characters_72x97_512_8
+    21300018: Characters_72x97_512_9
+    21300020: Characters_72x97_512_10
+    21300022: Characters_72x97_512_11
+    21300024: Characters_72x97_512_12
+    21300026: Characters_72x97_512_13
+    21300028: Characters_72x97_512_14
+    21300030: Characters_72x97_512_15
+    21300032: Characters_72x97_512_16
+    21300034: Characters_72x97_512_17
+    21300036: Characters_72x97_512_18
+    21300038: Characters_72x97_512_19
+    21300040: Characters_72x97_512_20
+    21300042: Characters_72x97_512_21
+    21300044: Characters_72x97_512_22
+    21300046: Characters_72x97_512_23
+    21300048: Characters_72x97_512_24
+    21300050: Characters_72x97_512_25
+    21300052: Characters_72x97_512_26
+    21300054: Characters_72x97_512_27
+    21300056: Characters_72x97_512_28
+    21300058: Characters_72x97_512_29
+    21300060: Characters_72x97_512_30
+    21300062: Characters_72x97_512_31
+    21300064: Characters_72x97_512_32
+    21300066: Characters_72x97_512_33
+    21300068: Characters_72x97_512_34
+    21300070: Characters_72x97_512_35
+    21300072: Characters_72x97_512_36
+    21300074: Characters_72x97_512_37
+    21300076: Characters_72x97_512_38
+    21300078: Characters_72x97_512_39
+    21300080: Characters_72x97_512_40
+    21300082: Characters_72x97_512_41
+    21300084: Characters_72x97_512_42
+    21300086: Characters_72x97_512_43
+    21300088: Characters_72x97_512_44
+    21300090: Characters_72x97_512_45
+    21300092: Characters_72x97_512_46
+    21300094: Characters_72x97_512_47
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

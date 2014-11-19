@@ -12,10 +12,12 @@ public class CharacterController2D : MonoBehaviour {
 	public float HorizontalSpeed = 1.0f;
 	private Animator anim;
 	private float lastJump;
+	public float CameraZoomMultiplier = 1.0f;
 	
 	public bool randomize = false;
 	private float nextChange;
 	private int randMult = 1;
+	private Vector3 respawn;
 	
 	private void UpdateLocalScale() {
 		Vector3 newLocalScale = Vector3.one;
@@ -63,6 +65,7 @@ public class CharacterController2D : MonoBehaviour {
 	private float initialScale;
 
 	void Start () {
+		respawn = transform.position;
 		initialScale = transform.localScale.x;
 		Scale = initialScale;
 		instance = this;
@@ -70,7 +73,8 @@ public class CharacterController2D : MonoBehaviour {
 		Alive = true;
 		FacingRight = true;
 		
-		StartCoroutine(ScaleUp());
+		// TODO: reenable
+		//StartCoroutine(ScaleUp());
 	}
 	
 	void FaceLeft() {
@@ -85,13 +89,13 @@ public class CharacterController2D : MonoBehaviour {
 		Bounds bounds = collider2D.bounds;
 		float epsilon = 0.1f;
 		float epsilon_x = bounds.size.x * epsilon;
-		float epsilon_y = bounds.size.y * 0.3f;
+		float epsilon_y = bounds.size.y * 0.3f + 0.1f;
 		Vector2 bottomLeft = new Vector2(bounds.min.x + epsilon_x, bounds.min.y);
 		Vector2 bottomRightPadded = new Vector2(bounds.max.x - epsilon_x, bounds.min.y - epsilon_y);
 		
 		//bool grounded = (bool)Physics2D.Linecast(new Vector2(bounds.center.x, bounds.center.y), new Vector2(bounds.center.x, bounds.min.y - 0.2f), LayerMask.GetMask("Terrain"));
 		
-		return (bool)Physics2D.OverlapArea(bottomLeft, bottomRightPadded, LayerMask.GetMask("Terrain"));
+		return (bool)Physics2D.OverlapArea(bottomLeft, bottomRightPadded, LayerMask.GetMask("Terrain", "Background"));
 	}
 	
 	void FixedUpdate () {
@@ -103,9 +107,8 @@ public class CharacterController2D : MonoBehaviour {
 		Vector2 velocity = rigidbody2D.velocity;
 	
 		bool grounded = IsGrounded();
-		if (grounded && Input.GetAxisRaw("Vertical") > 0 && (Time.time - lastJump > 0.2)) {
+		if (grounded && Input.GetAxisRaw("Vertical") > 0 && Input.GetAxis("Vertical") < 0.15f && (Time.time - lastJump > 0.2)) {
 			lastJump = Time.time;
-			Debug.Log ("jump");
 			if (Scale == 1)
 				audio.PlayOneShot(SmallJump, 1.0f);
 			else
@@ -130,6 +133,8 @@ public class CharacterController2D : MonoBehaviour {
 		else if (horizantal < 0)
 			FaceLeft();
 		
+		Vector2 position = transform.position;
+		transform.position = position;
 		velocity.x = horizantal * HorizontalSpeed * Scale;
 		anim.SetFloat("Speed", Mathf.Abs(velocity.x));
 		anim.SetBool("Grounded", grounded);
@@ -143,7 +148,13 @@ public class CharacterController2D : MonoBehaviour {
 	IEnumerator ResetLevelAfter(float waitTime) 
 	{
 		yield return new WaitForSeconds(waitTime);
-		Application.LoadLevel(Application.loadedLevel);
+	
+		Alive = true;
+		rigidbody2D.velocity = Vector2.zero;
+		collider2D.enabled = true;
+		anim.SetBool("Alive", true);
+		transform.position = respawn;
+		
 	}
 	
 	private void Die() {
@@ -240,10 +251,14 @@ public class CharacterController2D : MonoBehaviour {
 		Application.LoadLevel((Application.loadedLevel + 1) % Application.levelCount);
 	}
 	
+	public void SetRespawn(Vector3 pos) {
+		respawn = pos;
+	}
+	
 	void OnCollisionEnter2D(Collision2D coll) {
 		if (AlternatingScale)
 			return;
-			
+		
 		if (coll.gameObject.name == "NextLevel") {
 			audio.loop = true;
 			audio.clip = Powerup;
