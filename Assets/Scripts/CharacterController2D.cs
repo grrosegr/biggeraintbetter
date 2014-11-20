@@ -88,14 +88,23 @@ public class CharacterController2D : MonoBehaviour {
 	private bool IsGrounded() {
 		Bounds bounds = collider2D.bounds;
 		float epsilon = 0.1f;
-		float epsilon_x = bounds.size.x * epsilon;
-		float epsilon_y = bounds.size.y * 0.3f + 0.1f;
-		Vector2 bottomLeft = new Vector2(bounds.min.x + epsilon_x, bounds.min.y);
-		Vector2 bottomRightPadded = new Vector2(bounds.max.x - epsilon_x, bounds.min.y - epsilon_y);
+//		float epsilon_x = bounds.size.x * epsilon;
+//		float epsilon_y = bounds.size.y * 0.3f + 0.1f;
+//		Vector2 bottomLeft = new Vector2(bounds.min.x + epsilon_x, bounds.min.y);
+//		Vector2 bottomRightPadded = new Vector2(bounds.max.x - epsilon_x, bounds.min.y - epsilon_y);
 		
-		//bool grounded = (bool)Physics2D.Linecast(new Vector2(bounds.center.x, bounds.center.y), new Vector2(bounds.center.x, bounds.min.y - 0.2f), LayerMask.GetMask("Terrain"));
+		Vector2 start = new Vector2(bounds.min.x, bounds.min.y - epsilon);
+		Vector2 end = new Vector2(bounds.max.x, bounds.min.y - epsilon);
 		
-		return (bool)Physics2D.OverlapArea(bottomLeft, bottomRightPadded, LayerMask.GetMask("Terrain", "Background"));
+		bool grounded = (bool)Physics2D.Linecast(
+			start,
+			end, 
+			LayerMask.GetMask("Terrain", "Background")
+		);
+		Debug.DrawRay(start, end - start, Color.blue);
+		
+		return grounded;
+//		(bool)Physics2D.OverlapArea(bottomLeft, bottomRightPadded, LayerMask.GetMask("Terrain", "Background"));
 	}
 	
 	void FixedUpdate () {
@@ -107,7 +116,7 @@ public class CharacterController2D : MonoBehaviour {
 		Vector2 velocity = rigidbody2D.velocity;
 	
 		bool grounded = IsGrounded();
-		if (grounded && Input.GetAxisRaw("Vertical") > 0 && Input.GetAxis("Vertical") < 0.15f && (Time.time - lastJump > 0.2)) {
+		if (grounded && Input.GetAxisRaw("Vertical") > 0 && Input.GetAxis("Vertical") < 0.15f && (Time.time - lastJump > 0.05)) {
 			lastJump = Time.time;
 			if (Scale == 1)
 				audio.PlayOneShot(SmallJump, 1.0f);
