@@ -151,7 +151,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 98973499}
   - 212: {fileID: 98973498}
-  - 60: {fileID: 98973497}
+  - 61: {fileID: 98973497}
   m_Layer: 9
   m_Name: bigass middle tile
   m_TagString: Untagged
@@ -159,8 +159,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!60 &98973497
-PolygonCollider2D:
+--- !u!61 &98973497
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -168,27 +168,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: .9296875, y: .86328125}
-      - {x: .841796875, y: .849609375}
-      - {x: .560546875, y: .833984375}
-      - {x: .49609375, y: .822265625}
-      - {x: .404296875, y: .802734375}
-      - {x: .091796875, y: .787109375}
-      - {x: -.09375, y: .81640625}
-      - {x: -.455078125, y: .818359375}
-      - {x: -.4609375, y: .802734375}
-      - {x: -.673828125, y: .83203125}
-      - {x: -.685546875, y: .859375}
-      - {x: -.7265625, y: .86328125}
-      - {x: -.744140625, y: .86328125}
-      - {x: -.78125, y: .80859375}
-      - {x: -.982421875, y: .853515625}
-      - {x: -1, y: .84765625}
-      - {x: -1, y: -1}
-      - {x: 1, y: -1}
-      - {x: 1, y: .86328125}
+  m_Size: {x: 2, y: 1.50999999}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &98973498
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -218,7 +199,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 98973496}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.0136871, y: -6.44073963, z: 0}
+  m_LocalPosition: {x: 11.2325115, y: -10.198761, z: 0}
   m_LocalScale: {x: 16, y: 16, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -861,6 +842,68 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: .0219999999
+--- !u!1 &1957185857
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1957185860}
+  - 212: {fileID: 1957185859}
+  - 61: {fileID: 1957185858}
+  m_Layer: 9
+  m_Name: bigass middle tile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1957185858
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1957185857}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 2, y: 1.50999999}
+  m_Center: {x: 0, y: 0}
+--- !u!212 &1957185859
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1957185857}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 9cdad37498f774a7c9658cff64256429, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &1957185860
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1957185857}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.7376156, y: 5.44273186, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
 --- !u!1 &2056458121
 GameObject:
   m_ObjectHideFlags: 0
