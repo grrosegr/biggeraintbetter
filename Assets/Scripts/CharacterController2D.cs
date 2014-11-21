@@ -72,9 +72,11 @@ public class CharacterController2D : MonoBehaviour {
 		anim = GetComponent<Animator>();
 		Alive = true;
 		FacingRight = true;
+		lastJump = -1;
 		
 		// TODO: reenable
-		//StartCoroutine(ScaleUp());
+		if (Cheater.Instance.ScaleIn)
+			StartCoroutine(ScaleUp());
 	}
 	
 	void FaceLeft() {
@@ -264,18 +266,21 @@ public class CharacterController2D : MonoBehaviour {
 		respawn = pos;
 	}
 	
+	public void TriggerNextLevel() {
+		audio.loop = true;
+		audio.clip = Powerup;
+		audio.Play();
+		
+		StartCoroutine(ScaleToNextLevel());
+	}
+	
 	void OnCollisionEnter2D(Collision2D coll) {
 		if (AlternatingScale)
 			return;
 		
 		if (coll.gameObject.name == "NextLevel") {
-			audio.loop = true;
-			audio.clip = Powerup;
-			audio.Play();
 			Destroy(coll.gameObject);
-			
-			StartCoroutine(ScaleToNextLevel());
-		
+			TriggerNextLevel();
 		} else if (coll.gameObject.tag == "RedMushroom") {
 			audio.PlayOneShot(Powerup);
 			Destroy(coll.gameObject);
