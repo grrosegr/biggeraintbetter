@@ -274,6 +274,17 @@ public class CharacterController2D : MonoBehaviour {
 		StartCoroutine(ScaleToNextLevel());
 	}
 	
+	public bool ExpScale = true;
+	public void GetMushroom() {
+		float newScale = Scale;
+		if (ExpScale)
+			newScale += initialScale;
+		else
+			newScale *= 2;
+	
+		StartCoroutine(AlternateScale(Scale, newScale));
+	}
+	
 	void OnCollisionEnter2D(Collision2D coll) {
 		if (AlternatingScale)
 			return;
@@ -285,7 +296,7 @@ public class CharacterController2D : MonoBehaviour {
 			audio.PlayOneShot(Powerup);
 			Destroy(coll.gameObject);
 
-			StartCoroutine(AlternateScale(Scale, Scale + initialScale));
+			GetMushroom();
 		} else if (coll.gameObject.name == "KillBox") {
 			Die ();
 		} else if (coll.gameObject.tag == "Enemy") {

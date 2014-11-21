@@ -35,8 +35,11 @@ public class Cheater : MonoBehaviour {
 		
 		}
 		
-		if (Input.GetKeyDown(KeyCode.W))
+		if (Input.GetKeyDown(KeyCode.N))
 			controller.TriggerNextLevel();
+			
+		if (Input.GetKeyDown(KeyCode.M))
+			controller.GetMushroom();
 			
 	}
 }
