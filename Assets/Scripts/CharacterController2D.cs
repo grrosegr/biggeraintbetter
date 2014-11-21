@@ -274,10 +274,10 @@ public class CharacterController2D : MonoBehaviour {
 		StartCoroutine(ScaleToNextLevel());
 	}
 	
-	public bool ExpScale = true;
+	private bool ExpScale = false;
 	public void GetMushroom() {
 		float newScale = Scale;
-		if (ExpScale)
+		if (!ExpScale)
 			newScale += initialScale;
 		else
 			newScale *= 2;
