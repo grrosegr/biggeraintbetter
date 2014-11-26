@@ -4825,7 +4825,6 @@ GameObject:
   - 4: {fileID: 1631833107}
   - 212: {fileID: 1631833106}
   - 58: {fileID: 1631833105}
-  - 58: {fileID: 1631833104}
   - 114: {fileID: 1631833108}
   m_Layer: 0
   m_Name: NextLevel
@@ -4834,18 +4833,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &1631833104
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: b398d20e9dafe4b9a84b3599f5292a1b,
-    type: 2}
-  m_PrefabInternal: {fileID: 299063414}
-  m_GameObject: {fileID: 1631833103}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Radius: .25
-  m_Center: {x: 0, y: 0}
 --- !u!58 &1631833105
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4856,7 +4843,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .25
+  m_Radius: .519999981
   m_Center: {x: 0, y: 0}
 --- !u!212 &1631833106
 SpriteRenderer:

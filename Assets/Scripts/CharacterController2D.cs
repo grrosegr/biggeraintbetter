@@ -109,6 +109,15 @@ public class CharacterController2D : MonoBehaviour {
 //		(bool)Physics2D.OverlapArea(bottomLeft, bottomRightPadded, LayerMask.GetMask("Terrain", "Background"));
 	}
 	
+	private bool jumpTriggered;
+	void Update() {
+		// workaround because GetKeyDown doesn't work well in FixedUpdate
+		// see http://answers.unity3d.com/questions/20717/inputgetbuttondown-inconsistent.html
+		bool newJumpTriggered = Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space);
+		if (!jumpTriggered) // don't set false if it's been set, FixedUpdate still needs to see it!
+			jumpTriggered = newJumpTriggered;
+	}
+	
 	void FixedUpdate () {
 		if (!Alive)
 			return;
@@ -118,23 +127,22 @@ public class CharacterController2D : MonoBehaviour {
 		Vector2 velocity = rigidbody2D.velocity;
 	
 		bool grounded = IsGrounded();
-		bool jumpTriggered = Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space);
-		if (Input.GetAxisRaw("Vertical") > 0) {
-			if (!(Input.GetAxis("Vertical") < 0.15f))
-				Debug.Log ("Jump blocked due to vertical " + Input.GetAxis("Vertical"));
-			else if (!(Time.time - lastJump > 0.05))
-				Debug.Log ("jump bloked due to time " + (Time.time - lastJump).ToString() + " " + Time.time + " " + lastJump );
+		if (jumpTriggered) {
+			jumpTriggered = false;
+				
+			if (grounded && (Time.time - lastJump > 0.05)) {
+				lastJump = Time.time;
+				if (Scale == 1)
+					audio.PlayOneShot(SmallJump, 1.0f);
+				else
+					audio.PlayOneShot(LargeJump, 1.0f);
+				
+				velocity.y = JumpSpeed * Scale; // * Mathf.Max (1.0f, Mathf.Log(transform.localScale.y, 2.0f));
+			}
+				
 		}
 		
-		if (grounded && jumpTriggered && (Time.time - lastJump > 0.05)) {
-			lastJump = Time.time;
-			if (Scale == 1)
-				audio.PlayOneShot(SmallJump, 1.0f);
-			else
-				audio.PlayOneShot(LargeJump, 1.0f);
-				
-			velocity.y = JumpSpeed * Scale; // * Mathf.Max (1.0f, Mathf.Log(transform.localScale.y, 2.0f));
-		}
+		
 
 		float horizantal = Input.GetAxis("Horizontal");
 		
