@@ -118,7 +118,15 @@ public class CharacterController2D : MonoBehaviour {
 		Vector2 velocity = rigidbody2D.velocity;
 	
 		bool grounded = IsGrounded();
-		if (grounded && Input.GetAxisRaw("Vertical") > 0 && Input.GetAxis("Vertical") < 0.15f && (Time.time - lastJump > 0.05)) {
+		bool jumpTriggered = Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space);
+		if (Input.GetAxisRaw("Vertical") > 0) {
+			if (!(Input.GetAxis("Vertical") < 0.15f))
+				Debug.Log ("Jump blocked due to vertical " + Input.GetAxis("Vertical"));
+			else if (!(Time.time - lastJump > 0.05))
+				Debug.Log ("jump bloked due to time " + (Time.time - lastJump).ToString() + " " + Time.time + " " + lastJump );
+		}
+		
+		if (grounded && jumpTriggered && (Time.time - lastJump > 0.05)) {
 			lastJump = Time.time;
 			if (Scale == 1)
 				audio.PlayOneShot(SmallJump, 1.0f);
