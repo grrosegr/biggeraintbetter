@@ -88,9 +88,10 @@ public class CharacterController2D : MonoBehaviour {
 		FacingRight = true;
 	}
 	
+	const float epsilon = 0.1f;
+	
 	private bool IsGrounded() {
 		Bounds bounds = collider2D.bounds;
-		float epsilon = 0.1f;
 //		float epsilon_x = bounds.size.x * epsilon;
 //		float epsilon_y = bounds.size.y * 0.3f + 0.1f;
 //		Vector2 bottomLeft = new Vector2(bounds.min.x + epsilon_x, bounds.min.y);
@@ -174,27 +175,52 @@ public class CharacterController2D : MonoBehaviour {
 		rigidbody2D.velocity = velocity;
 		
 		// Check if we're too big to fit in the area
-		Bounds b = collider2D.bounds;
-		Collider2D[] hits = Physics2D.OverlapAreaAll(b.min, b.max, LayerMask.GetMask("Background", "Terrain"));
+		Bounds bounds = collider2D.bounds;
+//		Collider2D[] hits = Physics2D.OverlapAreaAll(b.min, b.max, LayerMask.GetMask("Background", "Terrain"));
 		bool left = false, right = false, up = false, down = false;
 		Vector2 m_pos = transform.position;
-		Debug.Log (hits.Length);
-		foreach (Collider2D coll in hits) {
-			Bounds bOther = coll.bounds;
-			Vector2 pOther = coll.transform.position;
-			
-			if (pOther.y > b.max.y)
-				up = true;
-			if (pOther.y < b.min.y)
-				down = true;
-			if (pOther.x < b.min.x)
-				left = true;
-			if (pOther.x > b.max.x)
-				right = true;
-		}
+		
+		int layerMask = LayerMask.GetMask("Terrain", "Background");
+		
+		down = (bool)Physics2D.OverlapPoint(
+			new Vector2(bounds.min.x + epsilon, bounds.min.y),
+			new Vector2(bounds.max.x - epsilon, bounds.min.y), 
+			layerMask
+		);
+		up = (bool)Physics2D.OverlapPoint(
+			new Vector2(bounds.min.x + epsilon, bounds.max.y),
+			new Vector2(bounds.max.x - epsilon, bounds.max.y), 
+			layerMask
+		);
+		left = (bool)Physics2D.OverlapPoint(
+			new Vector2(bounds.min.x, bounds.min.y + epsilon),
+			new Vector2(bounds.min.x, bounds.max.y - epsilon), 
+			layerMask
+		);
+		right = (bool)Physics2D.OverlapPoint(
+			new Vector2(bounds.max.x, bounds.min.y + epsilon),
+			new Vector2(bounds.max.x, bounds.max.y - epsilon), 
+			layerMask
+		);
+		
+//		Debug.Log (hits.Length);
+//		foreach (Collider2D coll in hits) {
+//			Bounds bOther = coll.bounds;
+//			Vector2 pOther = coll.transform.position;
+//			
+//			if (pOther.y > b.max.y)
+//				up = true;
+//			if (pOther.y < b.min.y)
+//				down = true;
+//			if (pOther.x < b.min.x)
+//				left = true;
+//			if (pOther.x > b.max.x)
+//				right = true;
+//		}
 		// TODO: continue here
-//		Debug.Log (left + " " + right + " " + up + " " + down);
+		Debug.Log (left + " " + right + " " + up + " " + down);
 		if ((left && right) || (up && down)) {
+		Debug.LogError ("woo");
 //			Debug.Log (left + " " + right + " " + up + " " + down);
 //			Die();
 		}
