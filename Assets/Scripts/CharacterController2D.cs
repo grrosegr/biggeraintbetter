@@ -18,6 +18,7 @@ public class CharacterController2D : MonoBehaviour {
 	private float nextChange;
 	private int randMult = 1;
 	private Vector3 respawn;
+	private float respawnScale;
 	
 	private void UpdateLocalScale() {
 		Vector3 newLocalScale = Vector3.one;
@@ -65,7 +66,7 @@ public class CharacterController2D : MonoBehaviour {
 	private float initialScale;
 
 	void Start () {
-		respawn = transform.position;
+		SetRespawn(transform.position);
 		initialScale = transform.localScale.x;
 		Scale = initialScale;
 		instance = this;
@@ -110,12 +111,15 @@ public class CharacterController2D : MonoBehaviour {
 	}
 	
 	private bool jumpTriggered;
+	private float jumpTriggeredTime;
 	void Update() {
 		// workaround because GetKeyDown doesn't work well in FixedUpdate
 		// see http://answers.unity3d.com/questions/20717/inputgetbuttondown-inconsistent.html
 		bool newJumpTriggered = Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space);
 		if (!jumpTriggered) // don't set false if it's been set, FixedUpdate still needs to see it!
 			jumpTriggered = newJumpTriggered;
+		if (newJumpTriggered)
+			jumpTriggeredTime = Time.time;
 	}
 	
 	void FixedUpdate () {
@@ -128,9 +132,9 @@ public class CharacterController2D : MonoBehaviour {
 	
 		bool grounded = IsGrounded();
 		if (jumpTriggered) {
-			jumpTriggered = false;
-				
+		
 			if (grounded && (Time.time - lastJump > 0.05)) {
+				jumpTriggered = false;
 				lastJump = Time.time;
 				if (Scale == 1)
 					audio.PlayOneShot(SmallJump, 1.0f);
@@ -138,6 +142,8 @@ public class CharacterController2D : MonoBehaviour {
 					audio.PlayOneShot(LargeJump, 1.0f);
 				
 				velocity.y = JumpSpeed * Scale; // * Mathf.Max (1.0f, Mathf.Log(transform.localScale.y, 2.0f));
+			} else if (Time.time - jumpTriggeredTime > 0.1) {
+				jumpTriggered = false;
 			}
 				
 		}
@@ -166,6 +172,32 @@ public class CharacterController2D : MonoBehaviour {
 		anim.SetFloat("Speed", Mathf.Abs(velocity.x));
 		anim.SetBool("Grounded", grounded);
 		rigidbody2D.velocity = velocity;
+		
+		// Check if we're too big to fit in the area
+		Bounds b = collider2D.bounds;
+		Collider2D[] hits = Physics2D.OverlapAreaAll(b.min, b.max, LayerMask.GetMask("Background", "Terrain"));
+		bool left = false, right = false, up = false, down = false;
+		Vector2 m_pos = transform.position;
+		Debug.Log (hits.Length);
+		foreach (Collider2D coll in hits) {
+			Bounds bOther = coll.bounds;
+			Vector2 pOther = coll.transform.position;
+			
+			if (pOther.y > b.max.y)
+				up = true;
+			if (pOther.y < b.min.y)
+				down = true;
+			if (pOther.x < b.min.x)
+				left = true;
+			if (pOther.x > b.max.x)
+				right = true;
+		}
+		// TODO: continue here
+//		Debug.Log (left + " " + right + " " + up + " " + down);
+		if ((left && right) || (up && down)) {
+//			Debug.Log (left + " " + right + " " + up + " " + down);
+//			Die();
+		}
 	}
 	
 	public bool Alive {
@@ -181,7 +213,7 @@ public class CharacterController2D : MonoBehaviour {
 		collider2D.enabled = true;
 		anim.SetBool("Alive", true);
 		transform.position = respawn;
-		
+		Scale = respawnScale;
 	}
 	
 	private void Die() {
@@ -192,6 +224,7 @@ public class CharacterController2D : MonoBehaviour {
 		collider2D.enabled = false;
 		audio.PlayOneShot(DieSound);
 		anim.SetBool("Alive", false);
+		respawnScale = Scale;
 		StartCoroutine(ResetLevelAfter(DieSound.length + 0.0f));
 	}
 	
@@ -280,6 +313,7 @@ public class CharacterController2D : MonoBehaviour {
 	
 	public void SetRespawn(Vector3 pos) {
 		respawn = pos;
+		respawnScale = Scale;
 	}
 	
 	public void TriggerNextLevel() {
