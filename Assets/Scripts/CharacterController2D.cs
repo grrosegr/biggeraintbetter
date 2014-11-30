@@ -183,46 +183,24 @@ public class CharacterController2D : MonoBehaviour {
 		int layerMask = LayerMask.GetMask("Terrain", "Background");
 		
 		down = (bool)Physics2D.OverlapPoint(
-			new Vector2(bounds.min.x + epsilon, bounds.min.y),
-			new Vector2(bounds.max.x - epsilon, bounds.min.y), 
+			new Vector2(bounds.center.x, bounds.min.y),
 			layerMask
 		);
 		up = (bool)Physics2D.OverlapPoint(
-			new Vector2(bounds.min.x + epsilon, bounds.max.y),
-			new Vector2(bounds.max.x - epsilon, bounds.max.y), 
+			new Vector2(bounds.center.x, bounds.max.y),
 			layerMask
 		);
 		left = (bool)Physics2D.OverlapPoint(
-			new Vector2(bounds.min.x, bounds.min.y + epsilon),
-			new Vector2(bounds.min.x, bounds.max.y - epsilon), 
+			new Vector2(bounds.min.x, bounds.center.y),
 			layerMask
 		);
 		right = (bool)Physics2D.OverlapPoint(
-			new Vector2(bounds.max.x, bounds.min.y + epsilon),
-			new Vector2(bounds.max.x, bounds.max.y - epsilon), 
+			new Vector2(bounds.max.x, bounds.center.y),
 			layerMask
 		);
 		
-//		Debug.Log (hits.Length);
-//		foreach (Collider2D coll in hits) {
-//			Bounds bOther = coll.bounds;
-//			Vector2 pOther = coll.transform.position;
-//			
-//			if (pOther.y > b.max.y)
-//				up = true;
-//			if (pOther.y < b.min.y)
-//				down = true;
-//			if (pOther.x < b.min.x)
-//				left = true;
-//			if (pOther.x > b.max.x)
-//				right = true;
-//		}
-		// TODO: continue here
-		Debug.Log (left + " " + right + " " + up + " " + down);
 		if ((left && right) || (up && down)) {
-		Debug.LogError ("woo");
-//			Debug.Log (left + " " + right + " " + up + " " + down);
-//			Die();
+			Die();
 		}
 	}
 	
