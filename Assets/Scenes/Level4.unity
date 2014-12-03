@@ -9714,7 +9714,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .25
+  m_Radius: .49000001
   m_Center: {x: 0, y: 0}
 --- !u!212 &409047396
 SpriteRenderer:
@@ -10270,7 +10270,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .25
+  m_Radius: .49000001
   m_Center: {x: 0, y: 0}
 --- !u!212 &434298868
 SpriteRenderer:
@@ -11944,7 +11944,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .25
+  m_Radius: .49000001
   m_Center: {x: 0, y: 0}
 --- !u!212 &508783735
 SpriteRenderer:
@@ -13271,7 +13271,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .25
+  m_Radius: .49000001
   m_Center: {x: 0, y: 0}
 --- !u!212 &564443350
 SpriteRenderer:
@@ -16385,7 +16385,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .25
+  m_Radius: .49000001
   m_Center: {x: 0, y: 0}
 --- !u!212 &715280020
 SpriteRenderer:
@@ -19281,7 +19281,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .25
+  m_Radius: .49000001
   m_Center: {x: 0, y: 0}
 --- !u!212 &857389476
 SpriteRenderer:
@@ -30457,7 +30457,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .25
+  m_Radius: .49000001
   m_Center: {x: 0, y: 0}
 --- !u!212 &1349108905
 SpriteRenderer:
@@ -38120,7 +38120,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .25
+  m_Radius: .49000001
   m_Center: {x: 0, y: 0}
 --- !u!212 &1677073414
 SpriteRenderer:
@@ -41513,7 +41513,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .25
+  m_Radius: .49000001
   m_Center: {x: 0, y: 0}
 --- !u!212 &1826898633
 SpriteRenderer:
@@ -43725,7 +43725,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .25
+  m_Radius: .49000001
   m_Center: {x: 0, y: 0}
 --- !u!212 &1922433222
 SpriteRenderer:

@@ -14,8 +14,20 @@ public class TileObjectRawData : MonoBehaviour {
 	[HideInInspector]
 	public bool stackableObject;
 	
-//	void Update() {	
-//		
+	static Sprite theSprite;
+	
+	void Update() {
+//		SpriteRenderer s = (SpriteRenderer)renderer;
+//		if (s.sprite)
+//			theSprite = s.sprite;
+//		else
+//			s.sprite = theSprite;
+//			
+//		Debug.Log ("theSprite");
+		
+//		if (!s.sprite)
+//			s.sprite = 
+		
 //		Collider2D[] x = GetComponents<Collider2D>();
 //		foreach (var c in x)
 //			DestroyImmediate(c);
@@ -24,5 +36,5 @@ public class TileObjectRawData : MonoBehaviour {
 //		
 //		b.size = new Vector2(1, 1f);
 //		b.center = new Vector2(0, 0);
-//	}
+	}
 }

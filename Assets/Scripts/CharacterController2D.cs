@@ -116,11 +116,14 @@ public class CharacterController2D : MonoBehaviour {
 	void Update() {
 		// workaround because GetKeyDown doesn't work well in FixedUpdate
 		// see http://answers.unity3d.com/questions/20717/inputgetbuttondown-inconsistent.html
-		bool newJumpTriggered = Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space);
+		bool newJumpTriggered = Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow);
 		if (!jumpTriggered) // don't set false if it's been set, FixedUpdate still needs to see it!
 			jumpTriggered = newJumpTriggered;
 		if (newJumpTriggered)
 			jumpTriggeredTime = Time.time;
+			
+		if (Input.GetKeyDown(KeyCode.R))
+			StartCoroutine(ResetLevelAfter(0));
 	}
 	
 	void FixedUpdate () {
@@ -147,9 +150,7 @@ public class CharacterController2D : MonoBehaviour {
 				jumpTriggered = false;
 			}
 				
-		}
-		
-		
+		}		
 
 		float horizantal = Input.GetAxis("Horizontal");
 		
@@ -173,31 +174,32 @@ public class CharacterController2D : MonoBehaviour {
 		anim.SetFloat("Speed", Mathf.Abs(velocity.x));
 		anim.SetBool("Grounded", grounded);
 		rigidbody2D.velocity = velocity;
-		
+		CheckFit();
+	}		
+	
+	public void CheckFit() {
 		// Check if we're too big to fit in the area
 		Bounds bounds = collider2D.bounds;
-//		Collider2D[] hits = Physics2D.OverlapAreaAll(b.min, b.max, LayerMask.GetMask("Background", "Terrain"));
-		bool left = false, right = false, up = false, down = false;
-		Vector2 m_pos = transform.position;
+		bool left, right, up, down;
 		
 		int layerMask = LayerMask.GetMask("Terrain", "Background");
 		
 		down = (bool)Physics2D.OverlapPoint(
 			new Vector2(bounds.center.x, bounds.min.y),
 			layerMask
-		);
+			);
 		up = (bool)Physics2D.OverlapPoint(
 			new Vector2(bounds.center.x, bounds.max.y),
 			layerMask
-		);
+			);
 		left = (bool)Physics2D.OverlapPoint(
 			new Vector2(bounds.min.x, bounds.center.y),
 			layerMask
-		);
+			);
 		right = (bool)Physics2D.OverlapPoint(
 			new Vector2(bounds.max.x, bounds.center.y),
 			layerMask
-		);
+			);
 		
 		if ((left && right) || (up && down)) {
 			Die();
@@ -217,7 +219,8 @@ public class CharacterController2D : MonoBehaviour {
 		collider2D.enabled = true;
 		anim.SetBool("Alive", true);
 		transform.position = respawn;
-		Scale = respawnScale;
+//		Scale = respawnScale;
+		Scale = initialScale;
 	}
 	
 	private void Die() {

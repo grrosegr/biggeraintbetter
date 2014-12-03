@@ -12,7 +12,7 @@ public class DoughnutController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		float offset = Mathf.Sin(Time.time*2) * collider2D.bounds.size.y * 0.25f;
+		float offset = Mathf.Sin(Time.time*2) * collider2D.bounds.size.y * 0.1f;
 		transform.position = startPos + new Vector2(0, offset);
 	}
 }
