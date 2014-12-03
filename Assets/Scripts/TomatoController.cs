@@ -3,7 +3,7 @@ using System.Collections;
 
 public class TomatoController : MonoBehaviour {
 
-	public float Speed = 1.0f;
+	public float Speed = 5.0f;
 
 	private void UpdateLocalScale() {
 		Vector3 newLocalScale = transform.localScale;
