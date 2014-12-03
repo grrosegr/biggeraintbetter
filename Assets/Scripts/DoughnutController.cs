@@ -15,4 +15,14 @@ public class DoughnutController : MonoBehaviour {
 		float offset = Mathf.Sin(Time.time*2) * collider2D.bounds.size.y * 0.1f;
 		transform.position = startPos + new Vector2(0, offset);
 	}
+	
+	public void Hide() {
+		renderer.enabled = false;
+		collider2D.enabled = false;
+	}
+	
+	public void Show() {
+		renderer.enabled = true;
+		collider2D.enabled = true;
+	}
 }

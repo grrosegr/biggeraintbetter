@@ -221,6 +221,11 @@ public class CharacterController2D : MonoBehaviour {
 		transform.position = respawn;
 //		Scale = respawnScale;
 		Scale = initialScale;
+		
+		var doughnuts = GameObject.FindGameObjectsWithTag("RedMushroom");
+		foreach (var doughnut in doughnuts) {
+			doughnut.SendMessage("Show");
+		}
 	}
 	
 	private void Die() {
@@ -351,7 +356,8 @@ public class CharacterController2D : MonoBehaviour {
 			TriggerNextLevel();
 		} else if (coll.gameObject.tag == "RedMushroom") {
 			audio.PlayOneShot(Powerup);
-			Destroy(coll.gameObject);
+//			Destroy(coll.gameObject);
+			coll.gameObject.SendMessage("Hide");
 
 			GetMushroom();
 		} else if (coll.gameObject.name == "KillBox") {

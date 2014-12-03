@@ -3650,7 +3650,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .25
+  m_Radius: .49000001
   m_Center: {x: 0, y: 0}
 --- !u!212 &460233892
 SpriteRenderer:
@@ -3686,7 +3686,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
 --- !u!114 &460233894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3801,7 +3801,7 @@ Transform:
   m_Children:
   - {fileID: 1061199588}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 13
 --- !u!1 &491345943
 GameObject:
   m_ObjectHideFlags: 0
@@ -4150,7 +4150,7 @@ Transform:
   m_LocalScale: {x: 1024, y: 1024, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
 --- !u!1001 &537120098
 Prefab:
   m_ObjectHideFlags: 0
@@ -5868,6 +5868,10 @@ Prefab:
     - target: {fileID: 400000, guid: 53c8303d1d2ee4cf7a48a9d04d901878, type: 2}
       propertyPath: m_LocalScale.y
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 53c8303d1d2ee4cf7a48a9d04d901878, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 53c8303d1d2ee4cf7a48a9d04d901878, type: 2}
@@ -9313,11 +9317,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: b29b7257835bf43c0b9ffd39e68f4dc4, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 109.162132
+      value: 109.506943
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b29b7257835bf43c0b9ffd39e68f4dc4, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 12.9636784
+      value: 12.906208
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b29b7257835bf43c0b9ffd39e68f4dc4, type: 2}
       propertyPath: m_LocalPosition.z
@@ -9341,7 +9345,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b29b7257835bf43c0b9ffd39e68f4dc4, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b29b7257835bf43c0b9ffd39e68f4dc4, type: 2}
@@ -9660,11 +9664,11 @@ Transform:
   m_PrefabInternal: {fileID: 1245201379}
   m_GameObject: {fileID: 1289013811}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 109.162132, y: 12.9636784, z: 0}
+  m_LocalPosition: {x: 109.506943, y: 12.906208, z: 0}
   m_LocalScale: {x: 6, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 15
 --- !u!1 &1293737428
 GameObject:
   m_ObjectHideFlags: 0
@@ -10800,7 +10804,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .25
+  m_Radius: .49000001
   m_Center: {x: 0, y: 0}
 --- !u!212 &1442864121
 SpriteRenderer:
@@ -11331,7 +11335,7 @@ GameObject:
   - 4: {fileID: 1500535636}
   - 212: {fileID: 1500535635}
   - 58: {fileID: 1500535634}
-  - 58: {fileID: 1500535633}
+  - 114: {fileID: 1500535633}
   m_Layer: 0
   m_Name: NextLevel
   m_TagString: RedMushroom
@@ -11339,18 +11343,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!58 &1500535633
-CircleCollider2D:
+--- !u!114 &1500535633
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 5800000, guid: b398d20e9dafe4b9a84b3599f5292a1b,
+  m_PrefabParentObject: {fileID: 11400000, guid: b398d20e9dafe4b9a84b3599f5292a1b,
     type: 2}
   m_PrefabInternal: {fileID: 1989644461}
   m_GameObject: {fileID: 1500535632}
   m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Radius: .25
-  m_Center: {x: 0, y: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a8795091c09b41429fc4cba904f6d91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!58 &1500535634
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11361,7 +11365,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .25
+  m_Radius: .519999981
   m_Center: {x: 0, y: 0}
 --- !u!212 &1500535635
 SpriteRenderer:
@@ -11762,7 +11766,6 @@ MonoBehaviour:
   HorizontalSpeed: 1
   CameraZoomMultiplier: 1
   randomize: 0
-  ExpScale: 1
 --- !u!50 &1527908780
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -12156,7 +12159,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .25
+  m_Radius: .49000001
   m_Center: {x: 0, y: 0}
 --- !u!212 &1666534301
 SpriteRenderer:
@@ -13133,7 +13136,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .25
+  m_Radius: .49000001
   m_Center: {x: 0, y: 0}
 --- !u!212 &1821771194
 SpriteRenderer:
@@ -14055,7 +14058,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Radius: .25
+  m_Radius: .49000001
   m_Center: {x: 0, y: 0}
 --- !u!212 &1988867867
 SpriteRenderer:
