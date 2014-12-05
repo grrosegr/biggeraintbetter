@@ -3,6 +3,8 @@ using System.Collections;
 
 public class RespawnPoint : MonoBehaviour {
 
+	public int RespawnSize = 4;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -14,6 +16,6 @@ public class RespawnPoint : MonoBehaviour {
 	}
 	
 	void OnTriggerEnter2D(Collider2D other) {
-		other.SendMessage("SetRespawn", transform.position);
+		other.SendMessage("SetRespawn", this);
 	}
 }

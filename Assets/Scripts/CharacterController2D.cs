@@ -219,8 +219,8 @@ public class CharacterController2D : MonoBehaviour {
 		collider2D.enabled = true;
 		anim.SetBool("Alive", true);
 		transform.position = respawn;
-//		Scale = respawnScale;
-		Scale = initialScale;
+		Scale = respawnScale;
+//		Scale = initialScale;
 		
 		var doughnuts = GameObject.FindGameObjectsWithTag("RedMushroom");
 		foreach (var doughnut in doughnuts) {
@@ -323,9 +323,14 @@ public class CharacterController2D : MonoBehaviour {
 		Application.LoadLevel((Application.loadedLevel + 1) % Application.levelCount);
 	}
 	
-	public void SetRespawn(Vector3 pos) {
-		respawn = pos;
+	public void SetRespawn(Vector3 v) {
+		respawn = v;
 		respawnScale = Scale;
+	}
+	
+	public void SetRespawn(RespawnPoint p) {
+		respawn = p.transform.position;
+		respawnScale = p.RespawnSize;
 	}
 	
 	public void TriggerNextLevel() {
