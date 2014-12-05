@@ -32,6 +32,17 @@ public class TomatoController : MonoBehaviour {
 	
 	}
 	
+	int GetBackgroundLayerMask() {
+		return LayerMask.GetMask("Terrain", "Background");
+	}
+	
+	Vector2 GetForward() {
+		if (FacingRight)
+			return -transform.right;
+		else
+			return transform.right;
+	}
+	
 	// Update is called once per frame
 	void Update () {
 		Vector2 velocity = rigidbody2D.velocity;
@@ -39,8 +50,11 @@ public class TomatoController : MonoBehaviour {
 		// TODO: relative to velocity
 		Vector3 next = transform.position + new Vector3(velocity.x, velocity.y).normalized * 0.1f;
 		Vector3 nextGround = next - new Vector3(0, collider2D.bounds.extents.y + 0.1f, 0);
-		if (!Physics2D.Linecast(next, nextGround, LayerMask.GetMask("Terrain")))
+		if (!Physics2D.Linecast(next, nextGround, GetBackgroundLayerMask())
+		    || Physics2D.Linecast(transform.position, (Vector2)transform.position + GetForward()*0.5f, GetBackgroundLayerMask())
+		)
 			FacingRight = !FacingRight;
+		Debug.DrawRay(transform.position, GetForward()*0.5f);
 		
 		velocity.x = -transform.localScale.x * Speed;
 		rigidbody2D.velocity = velocity;
@@ -54,8 +68,6 @@ public class TomatoController : MonoBehaviour {
 		rigidbody2D.velocity = new Vector2(0, -1);
 		collider2D.enabled = false;
 	}
-	
-	
 	
 	void OnCollisionEnter2D(Collision2D coll) {
 		if (coll.gameObject.tag == "Player") {
