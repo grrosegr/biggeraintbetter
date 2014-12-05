@@ -11,11 +11,22 @@ public class TileAligner : MonoBehaviour {
 	}
 
 	private void Update() {
-		bool addRectOffsetX = grid_WidthHeight.x % 2 > 0;
-		bool addRectOffsetY = grid_WidthHeight.y % 2 > 0;
+//		bool addRectOffsetX;// = grid_WidthHeight.x % 2 > 0;
+//		bool addRectOffsetY;// = grid_WidthHeight.y % 2 > 0;
+		
+		float offsetX;
+		float offsetY;
+		
+		if (Mathf.Approximately(transform.localScale.x, 1)) {
+			offsetX = .5f;
+			offsetY = .5f;
+		} else {
+			offsetX = 0;
+			offsetY = 0;
+		}
 				
-		float snapX = Mathf.Floor(this.gameObject.transform.position.x) + (addRectOffsetX ? grid_WidthHeight.x / 2f : 0f);
-		float snapY = Mathf.Floor(this.gameObject.transform.position.y) + (addRectOffsetY ? grid_WidthHeight.y / 2f : 0f);
+		float snapX = Mathf.Floor(this.gameObject.transform.position.x) + offsetX;
+		float snapY = Mathf.Floor(this.gameObject.transform.position.y) + offsetY;
 		float snapZ = Mathf.Floor(this.gameObject.transform.position.z);
         
 		this.gameObject.transform.position = new Vector3(snapX, snapY, snapZ);
