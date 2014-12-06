@@ -30,7 +30,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.81026268, y: 6.14867592, z: 0}
+  m_LocalPosition: {x: 5.23885059, y: 3.61580157, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
@@ -150,7 +150,7 @@ MonoBehaviour:
   Powerup: {fileID: 8300000, guid: 0e02e33c161c64b8e8327597095ac1c9, type: 3}
   DieSound: {fileID: 8300000, guid: a8111d85f22e64902958b9b1622ab3a0, type: 3}
   JumpSpeed: 3.5
-  HorizontalSpeed: 1.60000002
+  HorizontalSpeed: 1.5
   CameraZoomMultiplier: 1
   randomize: 0
 --- !u!114 &11400002
