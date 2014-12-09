@@ -10997,7 +10997,7 @@ Transform:
   m_GameObject: {fileID: 635621459}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 10}
-  m_LocalScale: {x: .5, y: .5, z: 1}
+  m_LocalScale: {x: .600000024, y: .600000024, z: 1}
   m_Children: []
   m_Father: {fileID: 1864014877}
   m_RootOrder: 0
@@ -12591,6 +12591,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5917c759aa8244f2d85dc5d898368f49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RespawnSize: 4
 --- !u!61 &710064570
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18910,6 +18911,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5917c759aa8244f2d85dc5d898368f49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RespawnSize: 4
 --- !u!61 &1082755206
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36789,6 +36791,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5917c759aa8244f2d85dc5d898368f49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RespawnSize: 4
 --- !u!61 &1874448850
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -41871,7 +41874,7 @@ MonoBehaviour:
   Powerup: {fileID: 8300000, guid: 0e02e33c161c64b8e8327597095ac1c9, type: 3}
   DieSound: {fileID: 8300000, guid: a8111d85f22e64902958b9b1622ab3a0, type: 3}
   JumpSpeed: 3.5
-  HorizontalSpeed: 1.60000002
+  HorizontalSpeed: 1.5
   CameraZoomMultiplier: 1
   randomize: 0
 --- !u!50 &2102650901
