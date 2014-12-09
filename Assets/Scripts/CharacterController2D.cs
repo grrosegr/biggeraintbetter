@@ -66,8 +66,21 @@ public class CharacterController2D : MonoBehaviour {
 	}
 	
 	private float initialScale;
+	
+	private Collider2D[] collider2Ds;
+	private bool ColliderEnabled {
+		set {
+			foreach (Collider2D c in collider2Ds) {
+				c.enabled = value;
+			}
+		}
+	}
+	
+	private Collider2D mainCollider2D;
 
 	void Start () {
+		collider2Ds = GetComponents<Collider2D>();
+		mainCollider2D = GetComponent<BoxCollider2D>();
 		initialScale = transform.localScale.x;
 		Scale = initialScale;
 		SetRespawn(transform.position);
@@ -91,14 +104,10 @@ public class CharacterController2D : MonoBehaviour {
 		FacingRight = true;
 	}
 	
-	const float epsilon = 0.1f;
 	
 	private bool IsGrounded() {
-		Bounds bounds = collider2D.bounds;
-//		float epsilon_x = bounds.size.x * epsilon;
-//		float epsilon_y = bounds.size.y * 0.3f + 0.1f;
-//		Vector2 bottomLeft = new Vector2(bounds.min.x + epsilon_x, bounds.min.y);
-//		Vector2 bottomRightPadded = new Vector2(bounds.max.x - epsilon_x, bounds.min.y - epsilon_y);
+		Bounds bounds = mainCollider2D.bounds;
+		float epsilon = bounds.size.y * 0.1f;
 		
 		Vector2 start = new Vector2(bounds.min.x, bounds.min.y - epsilon);
 		Vector2 end = new Vector2(bounds.max.x, bounds.min.y - epsilon);
@@ -117,6 +126,9 @@ public class CharacterController2D : MonoBehaviour {
 	private bool jumpTriggered;
 	private float jumpTriggeredTime;
 	void Update() {
+		if (restartingLevel)
+			return;
+			
 		// workaround because GetKeyDown doesn't work well in FixedUpdate
 		// see http://answers.unity3d.com/questions/20717/inputgetbuttondown-inconsistent.html
 		bool newJumpTriggered = Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow);
@@ -191,7 +203,7 @@ public class CharacterController2D : MonoBehaviour {
 	
 	public void CheckFit() {
 		// Check if we're too big to fit in the area
-		Bounds bounds = collider2D.bounds;
+		Bounds bounds = mainCollider2D.bounds;
 		bool left, right, up, down;
 		
 		int layerMask = LayerMask.GetMask("Terrain", "Background");
@@ -222,13 +234,15 @@ public class CharacterController2D : MonoBehaviour {
 		get; private set;
 	}
 	
+	bool restartingLevel;
 	IEnumerator ResetLevelAfter(float waitTime) 
 	{
+		restartingLevel = true;
 		yield return new WaitForSeconds(waitTime);
 	
 		Alive = true;
 		rigidbody2D.velocity = Vector2.zero;
-		collider2D.enabled = true;
+		ColliderEnabled = true;
 		anim.SetBool("Alive", true);
 		transform.position = respawn;
 		Scale = respawnScale;
@@ -237,6 +251,7 @@ public class CharacterController2D : MonoBehaviour {
 		foreach (var doughnut in doughnuts) {
 			doughnut.SendMessage("Show");
 		}
+		restartingLevel = false;
 	}
 	
 	private void Die() {
@@ -244,7 +259,7 @@ public class CharacterController2D : MonoBehaviour {
 			return;
 		Alive = false;
 		rigidbody2D.velocity = new Vector2(0, JumpSpeed * Scale);
-		collider2D.enabled = false;
+		ColliderEnabled = false;
 		audio.PlayOneShot(DieSound);
 		anim.SetBool("Alive", false);
 		StartCoroutine(ResetLevelAfter(DieSound.length));
@@ -253,11 +268,11 @@ public class CharacterController2D : MonoBehaviour {
 	public bool AlternatingScale {get; private set;}
 	
 	IEnumerator AlternateScale(float oldScale, float newScale) {
-		float floorY = collider2D.bounds.min.y;
+		float floorY = mainCollider2D.bounds.min.y;
 		float extentY = transform.position.y - floorY;
 		
 		AlternatingScale = true;
-		collider2D.enabled = false;
+		ColliderEnabled = false;
 		rigidbody2D.isKinematic = true;
 		
 		for (int i = 0; i <= 2; i += 1) {
@@ -275,7 +290,7 @@ public class CharacterController2D : MonoBehaviour {
 			yield return new WaitForSeconds(0.075f);
 		}
 		
-		collider2D.enabled = true;
+		ColliderEnabled = true;
 		rigidbody2D.isKinematic = false;
 		AlternatingScale = false;
 	}
@@ -286,11 +301,11 @@ public class CharacterController2D : MonoBehaviour {
 	private IEnumerator ScaleUp() {
 		// Important: need to collect these bounds before turning off collider2d
 		// otherwise bounds becomes 0 x 0 px
-		float floorY = collider2D.bounds.min.y;
+		float floorY = mainCollider2D.bounds.min.y;
 		float extentY = (transform.position.y - floorY) / Scale;
 		
 		ScalingToNextLevel = true;
-		collider2D.enabled = false;
+		ColliderEnabled = false;
 		rigidbody2D.isKinematic = true;
 		
 		float endScale = Scale;
@@ -306,16 +321,16 @@ public class CharacterController2D : MonoBehaviour {
 		}
 		
 		ScalingToNextLevel = false;
-		collider2D.enabled = true;
+		ColliderEnabled = true;
 		rigidbody2D.isKinematic = false;
 	}
 	
 	IEnumerator ScaleToNextLevel() {
 		ScalingToNextLevel = true;
-		float floorY = collider2D.bounds.min.y;
+		float floorY = mainCollider2D.bounds.min.y;
 		float extentY = transform.position.y - floorY;
 		
-		collider2D.enabled = false;
+		ColliderEnabled = false;
 		rigidbody2D.isKinematic = true;
 		
 		float startScale = Scale;
