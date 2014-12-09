@@ -3,7 +3,7 @@ using System.Collections;
 
 public class RespawnPoint : MonoBehaviour {
 
-	public int RespawnSize = 4;
+	public GameObject[] DonutsEaten;
 
 	// Use this for initialization
 	void Start () {

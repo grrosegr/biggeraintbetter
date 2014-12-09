@@ -54,9 +54,10 @@ public class CameraController2D : MonoBehaviour {
 		
 		GameObject targetObject = targetController.gameObject;
 		float speed = targetObject.rigidbody2D.velocity.magnitude;
+		float pivot = 10 * transform.localScale.x;
 		float newDamp;
-		if (speed > 10)
-			newDamp = Mathf.Min(.15f, 1/(speed - 10));
+		if (speed > pivot)
+			newDamp = Mathf.Min(.15f, 1/(speed - pivot));
 		else
 			newDamp = .15f;
 		dampTime = newDamp;

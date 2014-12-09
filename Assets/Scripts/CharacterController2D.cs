@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class CharacterController2D : MonoBehaviour {
 
@@ -204,6 +205,7 @@ public class CharacterController2D : MonoBehaviour {
 	public void CheckFit() {
 		// Check if we're too big to fit in the area
 		Bounds bounds = mainCollider2D.bounds;
+//		bounds.Expand(0.1f * Vector3.one * Scale);
 		bool left, right, up, down;
 		
 		int layerMask = LayerMask.GetMask("Terrain", "Background");
@@ -251,6 +253,11 @@ public class CharacterController2D : MonoBehaviour {
 		foreach (var doughnut in doughnuts) {
 			doughnut.SendMessage("Show");
 		}
+		
+		foreach (var doughnut in donutsEatenOnRespawn) {
+			doughnut.SendMessage("Hide");
+		}		
+		
 		restartingLevel = false;
 	}
 	
@@ -353,9 +360,16 @@ public class CharacterController2D : MonoBehaviour {
 		respawnScale = Scale;
 	}
 	
+	private GameObject[] donutsEatenOnRespawn = new GameObject[] {};
+	private IList<RespawnPoint> usedRespawns = new List<RespawnPoint>();
 	public void SetRespawn(RespawnPoint p) {
+		if (usedRespawns.Contains(p))
+			return;
+			
 		respawn = p.transform.position;
-		respawnScale = p.RespawnSize;
+		respawnScale = initialScale + p.DonutsEaten.Length * initialScale;
+		donutsEatenOnRespawn = p.DonutsEaten;
+		usedRespawns.Add(p);
 	}
 	
 	public void TriggerNextLevel() {
