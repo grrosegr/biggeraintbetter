@@ -80761,12 +80761,13 @@ GameObject:
   - 23: {fileID: 1506037683}
   - 61: {fileID: 1506037682}
   - 114: {fileID: 1506037681}
+  - 114: {fileID: 1506037686}
   m_Layer: 0
   m_Name: KillBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!114 &1506037681
 MonoBehaviour:
@@ -80789,7 +80790,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1506037680}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Size: {x: 1, y: 1}
   m_Center: {x: 0, y: 0}
 --- !u!23 &1506037683
@@ -80833,6 +80834,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!114 &1506037686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: 1087cd6a1496b4365b656346993ace6e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1472768914}
+  m_GameObject: {fileID: 1506037680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a642db8370a48c18374fe53d6a7492, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1507428622
 GameObject:
   m_ObjectHideFlags: 0
@@ -115307,7 +115320,7 @@ MonoBehaviour:
   Powerup: {fileID: 8300000, guid: 0e02e33c161c64b8e8327597095ac1c9, type: 3}
   DieSound: {fileID: 8300000, guid: a8111d85f22e64902958b9b1622ab3a0, type: 3}
   JumpSpeed: 3.5
-  HorizontalSpeed: 1.60000002
+  HorizontalSpeed: 1.5
   CameraZoomMultiplier: 1
   randomize: 0
 --- !u!50 &2102650901

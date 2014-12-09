@@ -20,6 +20,8 @@ public class CharacterController2D : MonoBehaviour {
 	private Vector3 respawn;
 	private float respawnScale;
 	
+	private GameObject[] respawnPoints;
+	
 	private void UpdateLocalScale() {
 		Vector3 newLocalScale = Vector3.one;
 		if (!FacingRight)
@@ -66,14 +68,15 @@ public class CharacterController2D : MonoBehaviour {
 	private float initialScale;
 
 	void Start () {
-		SetRespawn(transform.position);
 		initialScale = transform.localScale.x;
 		Scale = initialScale;
+		SetRespawn(transform.position);
 		instance = this;
 		anim = GetComponent<Animator>();
 		Alive = true;
 		FacingRight = true;
 		lastJump = -1;
+		respawnPoints = GameObject.FindGameObjectsWithTag("Respawn");
 		
 		// TODO: reenable
 		if (Cheater.Instance.ScaleIn)
@@ -124,6 +127,15 @@ public class CharacterController2D : MonoBehaviour {
 			
 		if (Input.GetKeyDown(KeyCode.R))
 			StartCoroutine(ResetLevelAfter(0));
+		else {
+			for (int i = 1; i <= respawnPoints.Length; i++) {
+				if (Input.GetKeyDown(i.ToString())) {
+					SetRespawn(respawnPoints[i - 1].GetComponent<RespawnPoint>());
+					StartCoroutine(ResetLevelAfter(0));
+					break;
+				}
+			}
+		}
 	}
 	
 	void FixedUpdate () {
@@ -220,7 +232,6 @@ public class CharacterController2D : MonoBehaviour {
 		anim.SetBool("Alive", true);
 		transform.position = respawn;
 		Scale = respawnScale;
-//		Scale = initialScale;
 		
 		var doughnuts = GameObject.FindGameObjectsWithTag("RedMushroom");
 		foreach (var doughnut in doughnuts) {
@@ -236,8 +247,7 @@ public class CharacterController2D : MonoBehaviour {
 		collider2D.enabled = false;
 		audio.PlayOneShot(DieSound);
 		anim.SetBool("Alive", false);
-		respawnScale = Scale;
-		StartCoroutine(ResetLevelAfter(DieSound.length + 0.0f));
+		StartCoroutine(ResetLevelAfter(DieSound.length));
 	}
 	
 	public bool AlternatingScale {get; private set;}
@@ -352,6 +362,10 @@ public class CharacterController2D : MonoBehaviour {
 		StartCoroutine(AlternateScale(Scale, newScale));
 	}
 	
+	void Kill() {
+		Die ();
+	}
+	
 	void OnCollisionEnter2D(Collision2D coll) {
 		if (AlternatingScale)
 			return;
@@ -365,8 +379,6 @@ public class CharacterController2D : MonoBehaviour {
 			coll.gameObject.SendMessage("Hide");
 
 			GetMushroom();
-		} else if (coll.gameObject.name == "KillBox") {
-			Die ();
 		} else if (coll.gameObject.tag == "Enemy") {
 			if (coll.transform.position.y > transform.position.y)
 				Die();
