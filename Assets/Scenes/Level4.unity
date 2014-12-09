@@ -144,9 +144,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 7066385}
   - 212: {fileID: 7066384}
-  - 60: {fileID: 7066383}
   - 114: {fileID: 7066382}
   - 114: {fileID: 7066381}
+  - 61: {fileID: 7066383}
   m_Layer: 9
   m_Name: '[Tile] [] [74.5X] [15.5Y] [0L]'
   m_TagString: Untagged
@@ -181,8 +181,8 @@ MonoBehaviour:
   selectedTileInteger: 602
   selectedTileName: Donuts_16
   stackableObject: 0
---- !u!60 &7066383
-PolygonCollider2D:
+--- !u!61 &7066383
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -190,12 +190,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &7066384
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -301,9 +297,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 12134639}
   - 212: {fileID: 12134638}
-  - 60: {fileID: 12134637}
   - 114: {fileID: 12134636}
   - 114: {fileID: 12134635}
+  - 61: {fileID: 12134637}
   m_Layer: 9
   m_Name: '[Tile] [] [74.5X] [16.5Y] [0L]'
   m_TagString: Untagged
@@ -338,8 +334,8 @@ MonoBehaviour:
   selectedTileInteger: 596
   selectedTileName: Donuts_10
   stackableObject: 0
---- !u!60 &12134637
-PolygonCollider2D:
+--- !u!61 &12134637
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -347,12 +343,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &12134638
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -397,8 +389,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 28651357}
   - 212: {fileID: 28651360}
-  - 60: {fileID: 28651359}
   - 114: {fileID: 28651358}
+  - 61: {fileID: 28651359}
   m_Layer: 9
   m_Name: '[Tile] [] [70.5X] [15.5Y] [0L]'
   m_TagString: Untagged
@@ -434,8 +426,8 @@ MonoBehaviour:
   selectedTileInteger: 602
   selectedTileName: Donuts_16
   stackableObject: 0
---- !u!60 &28651359
-PolygonCollider2D:
+--- !u!61 &28651359
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -443,12 +435,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &28651360
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -664,8 +652,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 102334059}
   - 212: {fileID: 102334062}
-  - 60: {fileID: 102334061}
   - 114: {fileID: 102334060}
+  - 61: {fileID: 102334061}
   m_Layer: 9
   m_Name: '[Tile] [] [41.5X] [15.5Y] [0L]'
   m_TagString: Untagged
@@ -701,8 +689,8 @@ MonoBehaviour:
   selectedTileInteger: 590
   selectedTileName: Donuts_4
   stackableObject: 0
---- !u!60 &102334061
-PolygonCollider2D:
+--- !u!61 &102334061
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -710,12 +698,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &102334062
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -930,8 +914,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 115902074}
   - 212: {fileID: 115902077}
-  - 60: {fileID: 115902076}
   - 114: {fileID: 115902075}
+  - 61: {fileID: 115902076}
   m_Layer: 9
   m_Name: '[Tile] [] [47.5X] [17.5Y] [0L]'
   m_TagString: Untagged
@@ -967,8 +951,8 @@ MonoBehaviour:
   selectedTileInteger: 590
   selectedTileName: Donuts_4
   stackableObject: 0
---- !u!60 &115902076
-PolygonCollider2D:
+--- !u!61 &115902076
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -976,12 +960,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &115902077
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1197,8 +1177,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 254552886}
   - 212: {fileID: 254552889}
-  - 60: {fileID: 254552888}
   - 114: {fileID: 254552887}
+  - 61: {fileID: 254552888}
   m_Layer: 9
   m_Name: '[Tile] [] [67.5X] [17.5Y] [0L]'
   m_TagString: Untagged
@@ -1234,8 +1214,8 @@ MonoBehaviour:
   selectedTileInteger: 590
   selectedTileName: Donuts_4
   stackableObject: 0
---- !u!60 &254552888
-PolygonCollider2D:
+--- !u!61 &254552888
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -1243,12 +1223,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &254552889
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1408,8 +1384,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 295254005}
   - 212: {fileID: 295254008}
-  - 60: {fileID: 295254007}
   - 114: {fileID: 295254006}
+  - 61: {fileID: 295254007}
   m_Layer: 9
   m_Name: '[Tile] [Donuts_16] [29.5X] [16.5Y] [0L]'
   m_TagString: Untagged
@@ -1445,8 +1421,8 @@ MonoBehaviour:
   selectedTileInteger: 590
   selectedTileName: Donuts_4
   stackableObject: 0
---- !u!60 &295254007
-PolygonCollider2D:
+--- !u!61 &295254007
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -1454,12 +1430,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &295254008
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1614,8 +1586,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 319595893}
   - 212: {fileID: 319595896}
-  - 60: {fileID: 319595895}
   - 114: {fileID: 319595894}
+  - 61: {fileID: 319595895}
   m_Layer: 9
   m_Name: '[Tile] [] [38.5X] [17.5Y] [0L]'
   m_TagString: Untagged
@@ -1651,8 +1623,8 @@ MonoBehaviour:
   selectedTileInteger: 590
   selectedTileName: Donuts_4
   stackableObject: 0
---- !u!60 &319595895
-PolygonCollider2D:
+--- !u!61 &319595895
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -1660,12 +1632,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &319595896
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1742,8 +1710,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 336576647}
   - 212: {fileID: 336576650}
-  - 60: {fileID: 336576649}
   - 114: {fileID: 336576648}
+  - 61: {fileID: 336576649}
   m_Layer: 9
   m_Name: '[Tile] [] [44.5X] [17.5Y] [0L]'
   m_TagString: Untagged
@@ -1779,8 +1747,8 @@ MonoBehaviour:
   selectedTileInteger: 590
   selectedTileName: Donuts_4
   stackableObject: 0
---- !u!60 &336576649
-PolygonCollider2D:
+--- !u!61 &336576649
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -1788,12 +1756,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &336576650
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1887,8 +1851,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 384855008}
   - 212: {fileID: 384855011}
-  - 60: {fileID: 384855010}
   - 114: {fileID: 384855009}
+  - 61: {fileID: 384855010}
   m_Layer: 9
   m_Name: '[Tile] [] [67.5X] [16.5Y] [0L]'
   m_TagString: Untagged
@@ -1924,8 +1888,8 @@ MonoBehaviour:
   selectedTileInteger: 596
   selectedTileName: Donuts_10
   stackableObject: 0
---- !u!60 &384855010
-PolygonCollider2D:
+--- !u!61 &384855010
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -1933,12 +1897,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &384855011
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1971,8 +1931,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 426338975}
   - 212: {fileID: 426338978}
-  - 60: {fileID: 426338977}
   - 114: {fileID: 426338976}
+  - 61: {fileID: 426338977}
   m_Layer: 9
   m_Name: '[Tile] [] [70.5X] [16.5Y] [0L]'
   m_TagString: Untagged
@@ -2008,8 +1968,8 @@ MonoBehaviour:
   selectedTileInteger: 596
   selectedTileName: Donuts_10
   stackableObject: 0
---- !u!60 &426338977
-PolygonCollider2D:
+--- !u!61 &426338977
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -2017,12 +1977,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &426338978
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2164,8 +2120,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 464212056}
   - 212: {fileID: 464212059}
-  - 60: {fileID: 464212058}
   - 114: {fileID: 464212057}
+  - 61: {fileID: 464212058}
   m_Layer: 9
   m_Name: '[Tile] [] [47.5X] [17.5Y] [0L]'
   m_TagString: Untagged
@@ -2201,8 +2157,8 @@ MonoBehaviour:
   selectedTileInteger: 590
   selectedTileName: Donuts_4
   stackableObject: 0
---- !u!60 &464212058
-PolygonCollider2D:
+--- !u!61 &464212058
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -2210,12 +2166,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &464212059
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2528,7 +2480,7 @@ CircleCollider2D:
   m_Material: {fileID: 6200000, guid: 593593f3550ab4635a153abe942d4ebe, type: 2}
   m_IsTrigger: 0
   m_Radius: .0500000007
-  m_Center: {x: 0, y: -.0500000007}
+  m_Center: {x: 0, y: -.0450000018}
 --- !u!114 &504514906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2697,7 +2649,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 6200000, guid: 593593f3550ab4635a153abe942d4ebe, type: 2}
   m_IsTrigger: 0
-  m_Size: {x: .140000001, y: .189999998}
+  m_Size: {x: .140000001, y: .180000007}
   m_Center: {x: 0, y: 0}
 --- !u!1001 &523244824
 Prefab:
@@ -2846,8 +2798,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 588888216}
   - 212: {fileID: 588888219}
-  - 60: {fileID: 588888218}
   - 114: {fileID: 588888217}
+  - 61: {fileID: 588888218}
   m_Layer: 9
   m_Name: '[Tile] [] [41.5X] [13.5Y] [0L]'
   m_TagString: Untagged
@@ -2883,8 +2835,8 @@ MonoBehaviour:
   selectedTileInteger: 602
   selectedTileName: Donuts_16
   stackableObject: 0
---- !u!60 &588888218
-PolygonCollider2D:
+--- !u!61 &588888218
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -2892,12 +2844,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &588888219
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2930,8 +2878,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 616650822}
   - 212: {fileID: 616650825}
-  - 60: {fileID: 616650824}
   - 114: {fileID: 616650823}
+  - 61: {fileID: 616650824}
   m_Layer: 9
   m_Name: '[Tile] [] [47.5X] [16.5Y] [0L]'
   m_TagString: Untagged
@@ -2967,8 +2915,8 @@ MonoBehaviour:
   selectedTileInteger: 596
   selectedTileName: Donuts_10
   stackableObject: 0
---- !u!60 &616650824
-PolygonCollider2D:
+--- !u!61 &616650824
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -2976,12 +2924,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &616650825
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3014,8 +2958,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 677900107}
   - 212: {fileID: 677900110}
-  - 60: {fileID: 677900109}
   - 114: {fileID: 677900108}
+  - 61: {fileID: 677900109}
   m_Layer: 9
   m_Name: '[Tile] [] [47.5X] [16.5Y] [0L]'
   m_TagString: Untagged
@@ -3051,8 +2995,8 @@ MonoBehaviour:
   selectedTileInteger: 596
   selectedTileName: Donuts_10
   stackableObject: 0
---- !u!60 &677900109
-PolygonCollider2D:
+--- !u!61 &677900109
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -3060,12 +3004,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &677900110
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3471,8 +3411,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 778544397}
   - 212: {fileID: 778544400}
-  - 60: {fileID: 778544399}
   - 114: {fileID: 778544398}
+  - 61: {fileID: 778544399}
   m_Layer: 9
   m_Name: '[Tile] [] [32.5X] [16.5Y] [0L]'
   m_TagString: Untagged
@@ -3508,8 +3448,8 @@ MonoBehaviour:
   selectedTileInteger: 590
   selectedTileName: Donuts_4
   stackableObject: 0
---- !u!60 &778544399
-PolygonCollider2D:
+--- !u!61 &778544399
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -3517,12 +3457,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &778544400
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3555,8 +3491,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 778737677}
   - 212: {fileID: 778737680}
-  - 60: {fileID: 778737679}
   - 114: {fileID: 778737678}
+  - 61: {fileID: 778737679}
   m_Layer: 9
   m_Name: '[Tile] [] [35.5X] [15.5Y] [0L]'
   m_TagString: Untagged
@@ -3592,8 +3528,8 @@ MonoBehaviour:
   selectedTileInteger: 596
   selectedTileName: Donuts_10
   stackableObject: 0
---- !u!60 &778737679
-PolygonCollider2D:
+--- !u!61 &778737679
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -3601,12 +3537,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &778737680
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3761,8 +3693,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 885225103}
   - 212: {fileID: 885225106}
-  - 60: {fileID: 885225105}
   - 114: {fileID: 885225104}
+  - 61: {fileID: 885225105}
   m_Layer: 9
   m_Name: '[Tile] [] [44.5X] [16.5Y] [0L]'
   m_TagString: Untagged
@@ -3798,8 +3730,8 @@ MonoBehaviour:
   selectedTileInteger: 596
   selectedTileName: Donuts_10
   stackableObject: 0
---- !u!60 &885225105
-PolygonCollider2D:
+--- !u!61 &885225105
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -3807,12 +3739,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &885225106
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3845,8 +3773,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 894527807}
   - 212: {fileID: 894527810}
-  - 60: {fileID: 894527809}
   - 114: {fileID: 894527808}
+  - 61: {fileID: 894527809}
   m_Layer: 9
   m_Name: '[Tile] [] [70.5X] [17.5Y] [0L]'
   m_TagString: Untagged
@@ -3882,8 +3810,8 @@ MonoBehaviour:
   selectedTileInteger: 590
   selectedTileName: Donuts_4
   stackableObject: 0
---- !u!60 &894527809
-PolygonCollider2D:
+--- !u!61 &894527809
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -3891,12 +3819,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &894527810
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4006,8 +3930,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 915450798}
   - 212: {fileID: 915450801}
-  - 60: {fileID: 915450800}
   - 114: {fileID: 915450799}
+  - 61: {fileID: 915450800}
   m_Layer: 9
   m_Name: '[Tile] [] [44.5X] [15.5Y] [0L]'
   m_TagString: Untagged
@@ -4043,8 +3967,8 @@ MonoBehaviour:
   selectedTileInteger: 602
   selectedTileName: Donuts_16
   stackableObject: 0
---- !u!60 &915450800
-PolygonCollider2D:
+--- !u!61 &915450800
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -4052,12 +3976,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &915450801
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4609,8 +4529,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1126574598}
   - 212: {fileID: 1126574601}
-  - 60: {fileID: 1126574600}
   - 114: {fileID: 1126574599}
+  - 61: {fileID: 1126574600}
   m_Layer: 9
   m_Name: '[Tile] [] [60.5X] [16.5Y] [0L]'
   m_TagString: Untagged
@@ -4646,8 +4566,8 @@ MonoBehaviour:
   selectedTileInteger: 596
   selectedTileName: Donuts_10
   stackableObject: 0
---- !u!60 &1126574600
-PolygonCollider2D:
+--- !u!61 &1126574600
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -4655,12 +4575,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &1126574601
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4988,8 +4904,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1230783892}
   - 212: {fileID: 1230783895}
-  - 60: {fileID: 1230783894}
   - 114: {fileID: 1230783893}
+  - 61: {fileID: 1230783894}
   m_Layer: 9
   m_Name: '[Tile] [] [72.5X] [16.5Y] [0L]'
   m_TagString: Untagged
@@ -5025,8 +4941,8 @@ MonoBehaviour:
   selectedTileInteger: 596
   selectedTileName: Donuts_10
   stackableObject: 0
---- !u!60 &1230783894
-PolygonCollider2D:
+--- !u!61 &1230783894
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -5034,12 +4950,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &1230783895
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5133,8 +5045,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1281877775}
   - 212: {fileID: 1281877778}
-  - 60: {fileID: 1281877777}
   - 114: {fileID: 1281877776}
+  - 61: {fileID: 1281877777}
   m_Layer: 9
   m_Name: '[Tile] [] [60.5X] [15.5Y] [0L]'
   m_TagString: Untagged
@@ -5170,8 +5082,8 @@ MonoBehaviour:
   selectedTileInteger: 602
   selectedTileName: Donuts_16
   stackableObject: 0
---- !u!60 &1281877777
-PolygonCollider2D:
+--- !u!61 &1281877777
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -5179,12 +5091,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &1281877778
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5394,8 +5302,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1356068217}
   - 212: {fileID: 1356068220}
-  - 60: {fileID: 1356068219}
   - 114: {fileID: 1356068218}
+  - 61: {fileID: 1356068219}
   m_Layer: 9
   m_Name: '[Tile] [] [38.5X] [16.5Y] [0L]'
   m_TagString: Untagged
@@ -5431,8 +5339,8 @@ MonoBehaviour:
   selectedTileInteger: 596
   selectedTileName: Donuts_10
   stackableObject: 0
---- !u!60 &1356068219
-PolygonCollider2D:
+--- !u!61 &1356068219
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -5440,12 +5348,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &1356068220
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5478,8 +5382,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1359640632}
   - 212: {fileID: 1359640635}
-  - 60: {fileID: 1359640634}
   - 114: {fileID: 1359640633}
+  - 61: {fileID: 1359640634}
   m_Layer: 9
   m_Name: '[Tile] [Donuts_16] [29.5X] [15.5Y] [0L]'
   m_TagString: Untagged
@@ -5515,8 +5419,8 @@ MonoBehaviour:
   selectedTileInteger: 596
   selectedTileName: Donuts_10
   stackableObject: 0
---- !u!60 &1359640634
-PolygonCollider2D:
+--- !u!61 &1359640634
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -5524,12 +5428,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &1359640635
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5684,8 +5584,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1476259159}
   - 212: {fileID: 1476259162}
-  - 60: {fileID: 1476259161}
   - 114: {fileID: 1476259160}
+  - 61: {fileID: 1476259161}
   m_Layer: 9
   m_Name: '[Tile] [] [35.5X] [16.5Y] [0L]'
   m_TagString: Untagged
@@ -5721,8 +5621,8 @@ MonoBehaviour:
   selectedTileInteger: 590
   selectedTileName: Donuts_4
   stackableObject: 0
---- !u!60 &1476259161
-PolygonCollider2D:
+--- !u!61 &1476259161
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -5730,12 +5630,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &1476259162
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5889,8 +5785,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1566493617}
   - 212: {fileID: 1566493620}
-  - 60: {fileID: 1566493619}
   - 114: {fileID: 1566493618}
+  - 61: {fileID: 1566493619}
   m_Layer: 9
   m_Name: '[Tile] [] [32.5X] [15.5Y] [0L]'
   m_TagString: Untagged
@@ -5926,8 +5822,8 @@ MonoBehaviour:
   selectedTileInteger: 596
   selectedTileName: Donuts_10
   stackableObject: 0
---- !u!60 &1566493619
-PolygonCollider2D:
+--- !u!61 &1566493619
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -5935,12 +5831,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &1566493620
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6260,8 +6152,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1641922701}
   - 212: {fileID: 1641922704}
-  - 60: {fileID: 1641922703}
   - 114: {fileID: 1641922702}
+  - 61: {fileID: 1641922703}
   m_Layer: 9
   m_Name: '[Tile] [] [38.5X] [15.5Y] [0L]'
   m_TagString: Untagged
@@ -6297,8 +6189,8 @@ MonoBehaviour:
   selectedTileInteger: 602
   selectedTileName: Donuts_16
   stackableObject: 0
---- !u!60 &1641922703
-PolygonCollider2D:
+--- !u!61 &1641922703
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -6306,12 +6198,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &1641922704
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6344,8 +6232,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1646867816}
   - 212: {fileID: 1646867819}
-  - 60: {fileID: 1646867818}
   - 114: {fileID: 1646867817}
+  - 61: {fileID: 1646867818}
   m_Layer: 9
   m_Name: '[Tile] [] [72.5X] [17.5Y] [0L]'
   m_TagString: Untagged
@@ -6381,8 +6269,8 @@ MonoBehaviour:
   selectedTileInteger: 590
   selectedTileName: Donuts_4
   stackableObject: 0
---- !u!60 &1646867818
-PolygonCollider2D:
+--- !u!61 &1646867818
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -6390,12 +6278,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &1646867819
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6428,9 +6312,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 1651885015}
   - 212: {fileID: 1651885014}
-  - 60: {fileID: 1651885013}
   - 114: {fileID: 1651885012}
   - 114: {fileID: 1651885011}
+  - 61: {fileID: 1651885013}
   m_Layer: 9
   m_Name: '[Tile] [] [74.5X] [17.5Y] [0L]'
   m_TagString: Untagged
@@ -6465,8 +6349,8 @@ MonoBehaviour:
   selectedTileInteger: 590
   selectedTileName: Donuts_4
   stackableObject: 0
---- !u!60 &1651885013
-PolygonCollider2D:
+--- !u!61 &1651885013
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -6474,12 +6358,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &1651885014
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6907,8 +6787,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1828156063}
   - 212: {fileID: 1828156066}
-  - 60: {fileID: 1828156065}
   - 114: {fileID: 1828156064}
+  - 61: {fileID: 1828156065}
   m_Layer: 9
   m_Name: '[Tile] [] [47.5X] [15.5Y] [0L]'
   m_TagString: Untagged
@@ -6944,8 +6824,8 @@ MonoBehaviour:
   selectedTileInteger: 602
   selectedTileName: Donuts_16
   stackableObject: 0
---- !u!60 &1828156065
-PolygonCollider2D:
+--- !u!61 &1828156065
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -6953,12 +6833,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &1828156066
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6991,8 +6867,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1828243797}
   - 212: {fileID: 1828243800}
-  - 60: {fileID: 1828243799}
   - 114: {fileID: 1828243798}
+  - 61: {fileID: 1828243799}
   m_Layer: 9
   m_Name: '[Tile] [] [67.5X] [15.5Y] [0L]'
   m_TagString: Untagged
@@ -7028,8 +6904,8 @@ MonoBehaviour:
   selectedTileInteger: 602
   selectedTileName: Donuts_16
   stackableObject: 0
---- !u!60 &1828243799
-PolygonCollider2D:
+--- !u!61 &1828243799
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -7037,12 +6913,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &1828243800
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7136,8 +7008,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1855499922}
   - 212: {fileID: 1855499925}
-  - 60: {fileID: 1855499924}
   - 114: {fileID: 1855499923}
+  - 61: {fileID: 1855499924}
   m_Layer: 9
   m_Name: '[Tile] [Donuts_16] [29.5X] [14.5Y] [0L]'
   m_TagString: Untagged
@@ -7173,8 +7045,8 @@ MonoBehaviour:
   selectedTileInteger: 602
   selectedTileName: Donuts_16
   stackableObject: 0
---- !u!60 &1855499924
-PolygonCollider2D:
+--- !u!61 &1855499924
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -7182,12 +7054,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &1855499925
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7345,8 +7213,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1915258839}
   - 212: {fileID: 1915258842}
-  - 60: {fileID: 1915258841}
   - 114: {fileID: 1915258840}
+  - 61: {fileID: 1915258841}
   m_Layer: 9
   m_Name: '[Tile] [] [35.5X] [14.5Y] [0L]'
   m_TagString: Untagged
@@ -7382,8 +7250,8 @@ MonoBehaviour:
   selectedTileInteger: 602
   selectedTileName: Donuts_16
   stackableObject: 0
---- !u!60 &1915258841
-PolygonCollider2D:
+--- !u!61 &1915258841
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -7391,12 +7259,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &1915258842
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7429,8 +7293,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1930268940}
   - 212: {fileID: 1930268943}
-  - 60: {fileID: 1930268942}
   - 114: {fileID: 1930268941}
+  - 61: {fileID: 1930268942}
   m_Layer: 9
   m_Name: '[Tile] [] [72.5X] [15.5Y] [0L]'
   m_TagString: Untagged
@@ -7466,8 +7330,8 @@ MonoBehaviour:
   selectedTileInteger: 602
   selectedTileName: Donuts_16
   stackableObject: 0
---- !u!60 &1930268942
-PolygonCollider2D:
+--- !u!61 &1930268942
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -7475,12 +7339,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &1930268943
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7687,8 +7547,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1981356717}
   - 212: {fileID: 1981356720}
-  - 60: {fileID: 1981356719}
   - 114: {fileID: 1981356718}
+  - 61: {fileID: 1981356719}
   m_Layer: 9
   m_Name: '[Tile] [] [32.5X] [14.5Y] [0L]'
   m_TagString: Untagged
@@ -7724,8 +7584,8 @@ MonoBehaviour:
   selectedTileInteger: 602
   selectedTileName: Donuts_16
   stackableObject: 0
---- !u!60 &1981356719
-PolygonCollider2D:
+--- !u!61 &1981356719
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -7733,12 +7593,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &1981356720
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7771,8 +7627,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1994512910}
   - 212: {fileID: 1994512913}
-  - 60: {fileID: 1994512912}
   - 114: {fileID: 1994512911}
+  - 61: {fileID: 1994512912}
   m_Layer: 9
   m_Name: '[Tile] [] [60.5X] [17.5Y] [0L]'
   m_TagString: Untagged
@@ -7808,8 +7664,8 @@ MonoBehaviour:
   selectedTileInteger: 590
   selectedTileName: Donuts_4
   stackableObject: 0
---- !u!60 &1994512912
-PolygonCollider2D:
+--- !u!61 &1994512912
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -7817,12 +7673,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &1994512913
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7967,8 +7819,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 2017169861}
   - 212: {fileID: 2017169864}
-  - 60: {fileID: 2017169863}
   - 114: {fileID: 2017169862}
+  - 61: {fileID: 2017169863}
   m_Layer: 9
   m_Name: '[Tile] [] [44.5X] [16.5Y] [0L]'
   m_TagString: Untagged
@@ -8004,8 +7856,8 @@ MonoBehaviour:
   selectedTileInteger: 596
   selectedTileName: Donuts_10
   stackableObject: 0
---- !u!60 &2017169863
-PolygonCollider2D:
+--- !u!61 &2017169863
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -8013,12 +7865,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &2017169864
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8051,8 +7899,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 2036609602}
   - 212: {fileID: 2036609605}
-  - 60: {fileID: 2036609604}
   - 114: {fileID: 2036609603}
+  - 61: {fileID: 2036609604}
   m_Layer: 9
   m_Name: '[Tile] [] [44.5X] [17.5Y] [0L]'
   m_TagString: Untagged
@@ -8088,8 +7936,8 @@ MonoBehaviour:
   selectedTileInteger: 590
   selectedTileName: Donuts_4
   stackableObject: 0
---- !u!60 &2036609604
-PolygonCollider2D:
+--- !u!61 &2036609604
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -8097,12 +7945,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &2036609605
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8135,8 +7979,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 2062131229}
   - 212: {fileID: 2062131232}
-  - 60: {fileID: 2062131231}
   - 114: {fileID: 2062131230}
+  - 61: {fileID: 2062131231}
   m_Layer: 9
   m_Name: '[Tile] [] [44.5X] [15.5Y] [0L]'
   m_TagString: Untagged
@@ -8172,8 +8016,8 @@ MonoBehaviour:
   selectedTileInteger: 602
   selectedTileName: Donuts_16
   stackableObject: 0
---- !u!60 &2062131231
-PolygonCollider2D:
+--- !u!61 &2062131231
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -8181,12 +8025,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &2062131232
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8219,8 +8059,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 2067230864}
   - 212: {fileID: 2067230867}
-  - 60: {fileID: 2067230866}
   - 114: {fileID: 2067230865}
+  - 61: {fileID: 2067230866}
   m_Layer: 9
   m_Name: '[Tile] [] [41.5X] [14.5Y] [0L]'
   m_TagString: Untagged
@@ -8256,8 +8096,8 @@ MonoBehaviour:
   selectedTileInteger: 596
   selectedTileName: Donuts_10
   stackableObject: 0
---- !u!60 &2067230866
-PolygonCollider2D:
+--- !u!61 &2067230866
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -8265,12 +8105,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &2067230867
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8425,8 +8261,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 2116278653}
   - 212: {fileID: 2116278656}
-  - 60: {fileID: 2116278655}
   - 114: {fileID: 2116278654}
+  - 61: {fileID: 2116278655}
   m_Layer: 9
   m_Name: '[Tile] [] [47.5X] [15.5Y] [0L]'
   m_TagString: Untagged
@@ -8462,8 +8298,8 @@ MonoBehaviour:
   selectedTileInteger: 602
   selectedTileName: Donuts_16
   stackableObject: 0
---- !u!60 &2116278655
-PolygonCollider2D:
+--- !u!61 &2116278655
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -8471,12 +8307,8 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Poly:
-    m_Paths:
-    - - {x: -.503937006, y: .503937006}
-      - {x: -.503937006, y: -.503937006}
-      - {x: .503937006, y: -.503937006}
-      - {x: .503937006, y: .503937006}
+  m_Size: {x: 1.00787401, y: 1.00787401}
+  m_Center: {x: 0, y: 0}
 --- !u!212 &2116278656
 SpriteRenderer:
   m_ObjectHideFlags: 0

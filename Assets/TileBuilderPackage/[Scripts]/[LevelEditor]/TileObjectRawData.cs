@@ -16,6 +16,7 @@ public class TileObjectRawData : MonoBehaviour {
 	
 	static Sprite theSprite;
 	
+	bool fixedCollider;
 	void Update() {
 //		SpriteRenderer s = (SpriteRenderer)renderer;
 //		if (s.sprite)
@@ -27,13 +28,18 @@ public class TileObjectRawData : MonoBehaviour {
 		
 //		if (!s.sprite)
 //			s.sprite = 
-		
+
+//		if (fixedCollider)
+//			return;
+//		fixedCollider = true;
+//		Debug.Log ("fixed");
+//		
 //		Collider2D[] x = GetComponents<Collider2D>();
 //		foreach (var c in x)
 //			DestroyImmediate(c);
 //		
 //		var b = gameObject.AddComponent<BoxCollider2D>();
-//		
+		
 //		b.size = new Vector2(1, 1f);
 //		b.center = new Vector2(0, 0);
 	}

@@ -355,6 +355,38 @@ public class CharacterController2D : MonoBehaviour {
 		Application.LoadLevel((Application.loadedLevel + 1) % Application.levelCount);
 	}
 	
+	IEnumerator SoftScaleTo(float newScale) {
+		ScalingToNextLevel = true;
+		audio.loop = true;
+		audio.clip = Powerup;
+		audio.Play();
+		float floorY = mainCollider2D.bounds.min.y;
+		float extentY = transform.position.y - floorY;
+		
+		ColliderEnabled = false;
+		rigidbody2D.isKinematic = true;
+		
+		float startScale = Scale;
+		while (Scale * 1.1f < newScale) {
+			Scale *= 1.05f;
+			
+			Vector2 correctedPos = transform.position;
+			
+			correctedPos.y = floorY + extentY * (float)Scale / (float)startScale;
+			transform.position  = correctedPos;
+			
+			yield return new WaitForSeconds(0.001f);
+		}
+		Scale = newScale;
+		
+		ScalingToNextLevel = false;
+		ColliderEnabled = true;
+		rigidbody2D.isKinematic = false;
+		audio.loop = false;
+		audio.clip = Powerup;
+		audio.Stop();
+	}
+	
 	public void SetRespawn(Vector3 v) {
 		respawn = v;
 		respawnScale = Scale;
@@ -399,7 +431,14 @@ public class CharacterController2D : MonoBehaviour {
 		if (AlternatingScale)
 			return;
 		
-		if (coll.gameObject.name == "NextLevel") {
+		if (coll.gameObject.name == "SoftNextLevel") {
+			audio.PlayOneShot(Powerup);
+			coll.gameObject.SendMessage("Hide");
+			initialScale = coll.gameObject.GetComponent<NextLevel>().newBaseScale * 4;
+			StartCoroutine(SoftScaleTo(initialScale));
+//			Scale = initialScale;
+			
+		} else if (coll.gameObject.name == "NextLevel") {
 			Destroy(coll.gameObject);
 			TriggerNextLevel();
 		} else if (coll.gameObject.tag == "RedMushroom") {
