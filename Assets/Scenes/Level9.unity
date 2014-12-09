@@ -7497,11 +7497,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: a586ffde23d394839bd66fbbea12fdf6, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 20.5527534
+      value: 22.7592125
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a586ffde23d394839bd66fbbea12fdf6, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 9.69278145
+      value: 10.1000004
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a586ffde23d394839bd66fbbea12fdf6, type: 2}
       propertyPath: m_LocalPosition.z
@@ -41751,6 +41751,7 @@ GameObject:
   - 114: {fileID: 2102650897}
   - 58: {fileID: 2102650896}
   - 114: {fileID: 2102650895}
+  - 61: {fileID: 2102650904}
   m_Layer: 2
   m_Name: Mario_v2
   m_TagString: Player
@@ -41781,8 +41782,8 @@ CircleCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 6200000, guid: 593593f3550ab4635a153abe942d4ebe, type: 2}
   m_IsTrigger: 0
-  m_Radius: .100000001
-  m_Center: {x: 0, y: 0}
+  m_Radius: .0500000007
+  m_Center: {x: 0, y: -.0500000007}
 --- !u!114 &2102650897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41936,11 +41937,23 @@ Transform:
   m_PrefabInternal: {fileID: 464122458}
   m_GameObject: {fileID: 2102650894}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.5527534, y: 9.69278145, z: 0}
+  m_LocalPosition: {x: 22.7592125, y: 10.1000004, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
+--- !u!61 &2102650904
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100000, guid: a586ffde23d394839bd66fbbea12fdf6,
+    type: 2}
+  m_PrefabInternal: {fileID: 464122458}
+  m_GameObject: {fileID: 2102650894}
+  m_Enabled: 1
+  m_Material: {fileID: 6200000, guid: 593593f3550ab4635a153abe942d4ebe, type: 2}
+  m_IsTrigger: 0
+  m_Size: {x: .140000001, y: .189999998}
+  m_Center: {x: 0, y: 0}
 --- !u!1001 &2103341096
 Prefab:
   m_ObjectHideFlags: 0

@@ -21,6 +21,7 @@ public class CameraController2D : MonoBehaviour {
 		return Mathf.Pow(1.85f, Mathf.Log (targetController.Scale, 2.0f));
 	}
 	
+	bool instantSnap = false;
 	Vector3 GetDestination() {
 		GameObject targetObject = targetController.gameObject;
 		
@@ -36,8 +37,29 @@ public class CameraController2D : MonoBehaviour {
 		Vector3 t_pos = target.position;
 		//t_pos.y += 0.5f * scale;
 		Vector3 point = camera.WorldToViewportPoint(t_pos);
-		Vector3 delta = t_pos - camera.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, point.z)); //(new Vector3(0.5, 0.5, point.z));
+		
+//		float max = 0.75f;
+//		float min = 0.25f;
+//		if (point.x < min || point.x > max || point.y < min || point.y > max) {
+//			instantSnap = true;
+//			Vector3 fixedPoint = new Vector2(Mathf.Clamp(point.x, min, max), Mathf.Clamp(point.y, min, max));
+//			
+//			t_pos = camera.ViewportToWorldPoint((point - fixedPoint) + new Vector3(0.5f, 0.5f, 0));
+//		} else {
+//			instantSnap = false;
+//		}
+
+//		if (point.x < min || point.x > max || point.y < min || point.y > max) {
+//			dampTime *= .96f;
+//			Debug.Log ("shrink");
+//		} else {
+//			dampTime = Mathf.Lerp(dampTime, .15f, 2f);
+//			Debug.Log ("Grow");
+//		}
+		
+		Vector3 delta = t_pos - camera.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, point.z));
 		Vector3 destination = transform.position + delta;
+		destination.z = -10;
 		
 		return destination;
 	}
@@ -49,8 +71,28 @@ public class CameraController2D : MonoBehaviour {
 			
 		if (targetController.AlternatingScale)
 			return;
+			
+		Vector3 dest = GetDestination();
 		
+		GameObject targetObject = targetController.gameObject;
+		float speed = targetObject.rigidbody2D.velocity.magnitude;
+		float newDamp;
+		if (speed > 10)
+			newDamp = Mathf.Min(.15f, 1/(speed - 10));
+		else
+			newDamp = .15f;
+		dampTime = newDamp;
+//		Debug.Log (dampTime);
+//		if (speed > 10) {
+//			dampTime = Mathf.Lerp(dampTime, .02f, 0.1f);
+//		} else
+//			dampTime = Mathf.Lerp(dampTime, .15f, 0.1f);
 		
-		transform.position = Vector3.SmoothDamp(transform.position, GetDestination(), ref velocity, dampTime);
+		if (instantSnap) {
+			transform.position = dest;
+			velocity = Vector3.zero;
+		}
+		else
+			transform.position = Vector3.SmoothDamp(transform.position, dest, ref velocity, dampTime);
 	}
 }

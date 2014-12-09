@@ -2496,6 +2496,7 @@ GameObject:
   - 114: {fileID: 504514906}
   - 58: {fileID: 504514905}
   - 114: {fileID: 504514904}
+  - 61: {fileID: 504514913}
   m_Layer: 2
   m_Name: Mario_v2
   m_TagString: Player
@@ -2526,8 +2527,8 @@ CircleCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 6200000, guid: 593593f3550ab4635a153abe942d4ebe, type: 2}
   m_IsTrigger: 0
-  m_Radius: .100000001
-  m_Center: {x: 0, y: 0}
+  m_Radius: .0500000007
+  m_Center: {x: 0, y: -.0500000007}
 --- !u!114 &504514906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2686,6 +2687,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
+--- !u!61 &504514913
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100000, guid: a586ffde23d394839bd66fbbea12fdf6,
+    type: 2}
+  m_PrefabInternal: {fileID: 1126203006}
+  m_GameObject: {fileID: 504514903}
+  m_Enabled: 1
+  m_Material: {fileID: 6200000, guid: 593593f3550ab4635a153abe942d4ebe, type: 2}
+  m_IsTrigger: 0
+  m_Size: {x: .140000001, y: .189999998}
+  m_Center: {x: 0, y: 0}
 --- !u!1001 &523244824
 Prefab:
   m_ObjectHideFlags: 0
