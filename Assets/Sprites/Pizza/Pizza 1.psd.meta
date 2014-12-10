@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: c15fff8bb7af543cb9f8c349fbc591b9
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Pizza_0
+    21300002: Pizza_1
+    21300004: Pizza_2
+    21300006: Pizza_3
+    21300008: Pizza_4
+    21300010: Pizza_5
+    21300012: Pizza_6
+    21300014: Pizza_7
+    21300016: Pizza_8
+    21300018: Pizza_9
+    21300020: Pizza_10
+    21300022: Pizza_11
+    21300024: Pizza_12
+    21300026: Pizza_13
+    21300028: Pizza_14
+    21300030: Pizza_15
+    21300032: Pizza_16
+    21300034: Pizza_17
+    21300036: Pizza_18
+    21300038: Pizza_19
+    21300040: Pizza_20
+    21300042: Pizza_21
+    21300044: Pizza_22
+    21300046: Pizza_23
+    21300048: Pizza_24
+    21300050: Pizza_25
+    21300052: Pizza_26
+    21300054: Pizza_27
+    21300056: Pizza_28
+    21300058: Pizza_29
+    21300060: Pizza_30
+    21300062: Pizza_31
+    21300064: Pizza_32
+    21300066: Pizza_33
+    21300068: Pizza_34
+    21300070: Pizza_35
+    21300072: Pizza_36
+    21300074: Pizza 1_0
+    21300076: Pizza 1_1
+    21300078: Pizza 1_2
+    21300080: Pizza 1_3
+    21300082: Pizza 1_4
+    21300084: Pizza 1_5
+    21300086: Pizza 1_6
+    21300088: Pizza 1_7
+    21300090: Pizza 1_8
+    21300092: Pizza 1_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 127
+  alphaIsTransparency: 1
+  textureType: 5
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Pizza 1_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 646
+        width: 380
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pizza 1_1
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 640
+        width: 113
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pizza 1_2
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 640
+        width: 113
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pizza 1_3
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 535
+        width: 97
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pizza 1_4
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 518
+        width: 101
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pizza 1_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 399
+        width: 382
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pizza 1_6
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 401
+        width: 92
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pizza 1_7
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 386
+        width: 93
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pizza 1_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pizza 1_9
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 128
+        width: 346
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

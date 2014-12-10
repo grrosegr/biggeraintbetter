@@ -29,7 +29,7 @@ public class TileObjectRawData : MonoBehaviour {
 //		if (!s.sprite)
 //			s.sprite = 
 
-//		if (fixedCollider)
+//		if (fixedCollider || name.Contains("Pizza")))
 //			return;
 //		fixedCollider = true;
 //		

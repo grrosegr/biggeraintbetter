@@ -78,11 +78,14 @@ public class CharacterController2D : MonoBehaviour {
 	}
 	
 	private Collider2D mainCollider2D;
+	
+	private float originalInitialScale;
 
 	void Start () {
 		collider2Ds = GetComponents<Collider2D>();
 		mainCollider2D = GetComponent<BoxCollider2D>();
 		initialScale = transform.localScale.x;
+		originalInitialScale = initialScale;
 		Scale = initialScale;
 		SetRespawn(transform.position);
 		instance = this;
@@ -247,6 +250,7 @@ public class CharacterController2D : MonoBehaviour {
 		ColliderEnabled = true;
 		anim.SetBool("Alive", true);
 		transform.position = respawn;
+		initialScale = originalInitialScale;
 		Scale = respawnScale;
 		
 		var doughnuts = GameObject.FindGameObjectsWithTag("RedMushroom");
@@ -316,8 +320,8 @@ public class CharacterController2D : MonoBehaviour {
 		rigidbody2D.isKinematic = true;
 		
 		float endScale = Scale;
-		for (int i = 1; i <= 50; i += 1) {
-			Scale = endScale * i / 50.0f;
+		for (int i = 1; i <= 25; i += 1) {
+			Scale = endScale * i / 25.0f;
 			
 			Vector2 correctedPos = transform.position;
 			
@@ -431,14 +435,14 @@ public class CharacterController2D : MonoBehaviour {
 		if (AlternatingScale)
 			return;
 		
-		if (coll.gameObject.name == "SoftNextLevel") {
+		if (coll.gameObject.name == "SoftNextLevel" || coll.gameObject.tag == "SoftNextLevel") {
 			audio.PlayOneShot(Powerup);
 			coll.gameObject.SendMessage("Hide");
 			initialScale = coll.gameObject.GetComponent<NextLevel>().newBaseScale * 4;
 			StartCoroutine(SoftScaleTo(initialScale));
 //			Scale = initialScale;
 			
-		} else if (coll.gameObject.name == "NextLevel") {
+		} else if (coll.gameObject.name == "NextLevel" || coll.gameObject.tag == "NextLevel") {
 			Destroy(coll.gameObject);
 			TriggerNextLevel();
 		} else if (coll.gameObject.tag == "RedMushroom") {

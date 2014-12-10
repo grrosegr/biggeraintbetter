@@ -5,6 +5,7 @@ TagManager:
   tags:
   - RedMushroom
   - Enemy
+  - NextLevel
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
