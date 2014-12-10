@@ -177,11 +177,11 @@ State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Dead
+  m_Name: fatso_1_dead
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: d3434f400e8544699b6018225ed9a8bf, type: 2}
+  - {fileID: 7400000, guid: 4cd7dc0d59c7e42f69efc6e117828d86, type: 2}
   m_ParentStateMachine: {fileID: 110700000}
   m_Position: {x: 144, y: 228, z: 0}
   m_IKOnFeet: 0
@@ -224,13 +224,13 @@ StateMachine:
       - {fileID: 110177797}
       - {fileID: 110168476}
     data:
-      first: {fileID: 110200000}
-      second:
-      - {fileID: 110174647}
-    data:
       first: {fileID: 110220018}
       second:
       - {fileID: 110100000}
+    data:
+      first: {fileID: 110200000}
+      second:
+      - {fileID: 110174647}
     data:
       first: {fileID: 110263591}
       second:
