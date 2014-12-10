@@ -33,7 +33,7 @@ public class CameraController2D : MonoBehaviour {
 		float scale = Mathf.Lerp(oldScale, newScale, 0.2f);
 		oldScale = scale;
 		camera.orthographicSize = scale;
-		transform.localScale = Vector3.one * scale;
+		transform.localScale = new Vector3(1,1,0) * scale + new Vector3(0,0,1);
 		Vector3 t_pos = target.position;
 		Vector3 point = camera.WorldToViewportPoint(t_pos);
 		
