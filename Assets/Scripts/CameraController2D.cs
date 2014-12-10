@@ -27,8 +27,8 @@ public class CameraController2D : MonoBehaviour {
 		
 		Transform target = targetObject.transform;
 		float newScale = targetController.Scale;
-//		if (targetController.ScalingToNextLevel)
-//		newScale = AlmostAsBig(newScale);
+		if (targetController.ScalingToNextLevel)
+			newScale = AlmostAsBig(newScale);
 		newScale *= targetController.CameraZoomMultiplier;
 		float scale = Mathf.Lerp(oldScale, newScale, 0.2f);
 		oldScale = scale;
