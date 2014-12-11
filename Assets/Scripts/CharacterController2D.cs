@@ -168,10 +168,10 @@ public class CharacterController2D : MonoBehaviour {
 			if (grounded && (Time.time - lastJump > 0.05)) {
 				jumpTriggered = false;
 				lastJump = Time.time;
-//				if (Scale == 1)
-//					audio.PlayOneShot(SmallJump, 1.0f);
-//				else
-//					audio.PlayOneShot(LargeJump, 1.0f);
+				if (Scale == 1)
+					audio.PlayOneShot(SmallJump, 1.0f);
+				else
+					audio.PlayOneShot(LargeJump, 1.0f);
 				
 				velocity.y = JumpSpeed * Scale; // * Mathf.Max (1.0f, Mathf.Log(transform.localScale.y, 2.0f));
 			} else if (Time.time - jumpTriggeredTime > 0.1) {
@@ -271,7 +271,7 @@ public class CharacterController2D : MonoBehaviour {
 		Alive = false;
 		rigidbody2D.velocity = new Vector2(0, JumpSpeed * Scale);
 		ColliderEnabled = false;
-//		audio.PlayOneShot(DieSound);
+		audio.PlayOneShot(DieSound);
 		anim.SetBool("Alive", false);
 		StartCoroutine(ResetLevelAfter(DieSound.length));
 	}
@@ -406,6 +406,10 @@ public class CharacterController2D : MonoBehaviour {
 		respawnScale = initialScale + p.DonutsEaten.Length * initialScale;
 		donutsEatenOnRespawn = p.DonutsEaten;
 		usedRespawns.Add(p);
+	}
+	
+	public void TriggerNextLevelFast() {
+		Application.LoadLevel((Application.loadedLevel + 1) % Application.levelCount);
 	}
 	
 	public void TriggerNextLevel() {

@@ -36,7 +36,7 @@ public class Cheater : MonoBehaviour {
 		}
 		
 		if (Input.GetKeyDown(KeyCode.N))
-			controller.TriggerNextLevel();
+			Application.LoadLevel((Application.loadedLevel + 1) % Application.levelCount);
 			
 		if (Input.GetKeyDown(KeyCode.M))
 			controller.GetMushroom();

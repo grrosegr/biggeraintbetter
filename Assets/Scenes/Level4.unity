@@ -22620,10 +22620,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0bd8f927b27b4f4fb67688461e8c708, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SmallJump: {fileID: 8300000, guid: a7393dc8461124592a0dd671c7d2c330, type: 3}
-  LargeJump: {fileID: 8300000, guid: e0e2a564578954249b4c90bc2e5a1391, type: 3}
+  SmallJump: {fileID: 8300000, guid: 3b3f617c711b3441aab7ce11050a4f7c, type: 3}
+  LargeJump: {fileID: 8300000, guid: 3b3f617c711b3441aab7ce11050a4f7c, type: 3}
   Powerup: {fileID: 8300000, guid: 0e02e33c161c64b8e8327597095ac1c9, type: 3}
-  DieSound: {fileID: 8300000, guid: a8111d85f22e64902958b9b1622ab3a0, type: 3}
+  DieSound: {fileID: 8300000, guid: ede1ee786f4d24c09b7c3801d3cb8529, type: 3}
   JumpSpeed: 3.5
   HorizontalSpeed: 1.5
   CameraZoomMultiplier: 1
@@ -46213,6 +46213,18 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: a586ffde23d394839bd66fbbea12fdf6, type: 2}
+      propertyPath: DieSound
+      value: 
+      objectReference: {fileID: 8300000, guid: ede1ee786f4d24c09b7c3801d3cb8529, type: 3}
+    - target: {fileID: 11400000, guid: a586ffde23d394839bd66fbbea12fdf6, type: 2}
+      propertyPath: SmallJump
+      value: 
+      objectReference: {fileID: 8300000, guid: 3b3f617c711b3441aab7ce11050a4f7c, type: 3}
+    - target: {fileID: 11400000, guid: a586ffde23d394839bd66fbbea12fdf6, type: 2}
+      propertyPath: LargeJump
+      value: 
+      objectReference: {fileID: 8300000, guid: 3b3f617c711b3441aab7ce11050a4f7c, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a586ffde23d394839bd66fbbea12fdf6, type: 2}
   m_RootGameObject: {fileID: 504514903}
