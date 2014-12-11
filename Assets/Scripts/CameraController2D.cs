@@ -21,7 +21,6 @@ public class CameraController2D : MonoBehaviour {
 		return Mathf.Pow(1.85f, Mathf.Log (targetController.Scale, 2.0f));
 	}
 	
-	bool instantSnap = false;
 	Vector3 GetDestination() {
 		GameObject targetObject = targetController.gameObject;
 		

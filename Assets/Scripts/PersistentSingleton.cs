@@ -9,6 +9,7 @@ public class PersistentSingleton : MonoBehaviour {
 	}
 	
 	void Awake() {
+		// Only called on the first level this object is loaded into
 		if (instance != null && instance != this) {
 			Destroy(this.gameObject);
 			return;
@@ -18,5 +19,13 @@ public class PersistentSingleton : MonoBehaviour {
 		DontDestroyOnLoad(this.gameObject);
 	}
 	
-	// any other methods you need
+	void OnLevelWasLoaded() {
+		// Not called on the first level this object is loaded into, but will be
+		// called every time the level changes afterwards.
+		audio.enabled = Application.loadedLevelName.Contains("Level");
+		if (Application.loadedLevelName == "Level1") {
+			audio.Stop();
+			audio.Play();
+		}			
+	}
 }

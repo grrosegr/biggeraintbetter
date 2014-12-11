@@ -171,3 +171,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   img: {fileID: 2800000, guid: f43f33ae6cd7d482ea115eae2ac30e45, type: 3}
+  MinimumWaitTime: 1
