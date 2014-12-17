@@ -79466,6 +79466,7 @@ GameObject:
   - 58: {fileID: 2102650896}
   - 114: {fileID: 2102650895}
   - 61: {fileID: 2102650904}
+  - 114: {fileID: 2102650905}
   m_Layer: 2
   m_Name: Mario_v2
   m_TagString: Player
@@ -79597,10 +79598,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0bd8f927b27b4f4fb67688461e8c708, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SmallJump: {fileID: 8300000, guid: a7393dc8461124592a0dd671c7d2c330, type: 3}
-  LargeJump: {fileID: 8300000, guid: e0e2a564578954249b4c90bc2e5a1391, type: 3}
+  SmallJump: {fileID: 8300000, guid: 3b3f617c711b3441aab7ce11050a4f7c, type: 3}
+  LargeJump: {fileID: 8300000, guid: 3b3f617c711b3441aab7ce11050a4f7c, type: 3}
   Powerup: {fileID: 8300000, guid: 0e02e33c161c64b8e8327597095ac1c9, type: 3}
-  DieSound: {fileID: 8300000, guid: a8111d85f22e64902958b9b1622ab3a0, type: 3}
+  DieSound: {fileID: 8300000, guid: ede1ee786f4d24c09b7c3801d3cb8529, type: 3}
   JumpSpeed: 3.5
   HorizontalSpeed: 1.5
   CameraZoomMultiplier: 1
@@ -79642,7 +79643,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 1884284619
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 45d5371b512d2412ea4b3e8b951f0d9e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ee204d478dd9d4359a06114d23aa1ddf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!4 &2102650903
 Transform:
@@ -79668,6 +79669,19 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: .140000001, y: .180000007}
   m_Center: {x: 0, y: 0}
+--- !u!114 &2102650905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400006, guid: a586ffde23d394839bd66fbbea12fdf6,
+    type: 2}
+  m_PrefabInternal: {fileID: 464122458}
+  m_GameObject: {fileID: 2102650894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 992020f0fcfdf45fa902911dbf043f05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SecondsToHold: 3
 --- !u!1 &2106837541
 GameObject:
   m_ObjectHideFlags: 0
